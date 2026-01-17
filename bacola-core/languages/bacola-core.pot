@@ -1,0 +1,4467 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bacola Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-13 06:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: KlbTheme <klbtheme@gmail.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: tr_TR\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_html__;esc_html_e;"
+"esc_attr__;esc_attr_e;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"\n"
+"X-Loco-Parser: loco_parse_po"
+
+#: ../bacola-core.php:222 ../bacola-core.php:355 ../bacola-core.php:378 
+#: ../bacola-core.php:402
+msgid "Bacola Core"
+msgstr ""
+
+#: ../bacola-core.php:354
+#, php-format
+msgid "%1$s requires %2$s to be installed and activated."
+msgstr ""
+
+#: ../bacola-core.php:356 ../bacola-core.php:379
+msgid "Elementor"
+msgstr ""
+
+#: ../bacola-core.php:377 ../bacola-core.php:401
+#, php-format
+msgid "%1$s requires %2$s version %3$s or greater."
+msgstr ""
+
+#: ../bacola-core.php:403
+msgid "PHP"
+msgstr ""
+
+#: ../init.php:42
+msgid "Set a Template"
+msgstr ""
+
+#: ../init.php:49
+msgid "No template exist."
+msgstr ""
+
+#: ../init.php:138
+msgid "Type:"
+msgstr ""
+
+#: ../init.php:141
+msgid "MFG:"
+msgstr ""
+
+#: ../init.php:144
+msgid "LIFE:"
+msgstr ""
+
+#: ../elementor/classes/class-customizing-page-settings.php:7
+msgid "Hide Header"
+msgstr ""
+
+#: ../elementor/classes/class-customizing-page-settings.php:9 
+#: ../elementor/classes/class-customizing-page-settings.php:20 
+#: ../elementor/classes/class-helpers-functions.php:393 
+#: ../elementor/widgets/bacola-icon-box.php:35 
+#: ../elementor/widgets/bacola-icon-list.php:37 
+#: ../elementor/widgets/bacola-latest-blog.php:109
+msgid "Yes"
+msgstr ""
+
+#: ../elementor/classes/class-customizing-page-settings.php:10 
+#: ../elementor/classes/class-customizing-page-settings.php:21 
+#: ../elementor/classes/class-helpers-functions.php:394 
+#: ../elementor/widgets/bacola-icon-box.php:36 
+#: ../elementor/widgets/bacola-icon-list.php:38 
+#: ../elementor/widgets/bacola-latest-blog.php:110
+msgid "No"
+msgstr ""
+
+#: ../elementor/classes/class-customizing-page-settings.php:18
+msgid "Hide Footer"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:21
+msgid "Query"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:28 
+#: ../elementor/classes/class-helpers-functions.php:41
+msgid "Product Type"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:32 
+#: ../elementor/classes/class-helpers-functions.php:45 
+#: ../elementor/widgets/bacola-banner-box.php:36 
+#: ../elementor/widgets/bacola-banner-box2.php:36 
+#: ../elementor/widgets/bacola-banner-box3.php:36 
+#: ../elementor/widgets/bacola-banner-box3.php:110 
+#: ../elementor/widgets/bacola-banner-box4.php:124 
+#: ../elementor/widgets/bacola-banner-box5.php:84 
+#: ../elementor/widgets/bacola-home-slider.php:36 
+#: ../elementor/widgets/bacola-product-categories.php:37 
+#: ../elementor/widgets/bacola-text-banner.php:36 ../inc/customizer.php:1545
+msgid "Select Type"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:33 
+#: ../elementor/classes/class-helpers-functions.php:47 
+#: ../elementor/widgets/bacola-banner-box.php:38 
+#: ../elementor/widgets/bacola-banner-box2.php:38 
+#: ../elementor/widgets/bacola-banner-box3.php:38 
+#: ../elementor/widgets/bacola-banner-box3.php:112 
+#: ../elementor/widgets/bacola-banner-box4.php:126 
+#: ../elementor/widgets/bacola-banner-box5.php:86 
+#: ../elementor/widgets/bacola-home-slider.php:38 
+#: ../elementor/widgets/bacola-product-categories.php:39 
+#: ../elementor/widgets/bacola-text-banner.php:38 ../inc/customizer.php:321 
+#: ../inc/customizer.php:1352 ../inc/customizer.php:1736 
+#: ../inc/customizer.php:3771
+msgid "Type 2"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:34 
+#: ../elementor/classes/class-helpers-functions.php:48 
+#: ../elementor/widgets/bacola-banner-box4.php:128 
+#: ../elementor/widgets/bacola-banner-box5.php:88 ../inc/customizer.php:1353 
+#: ../inc/customizer.php:1738
+msgid "Type 4"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:46 
+#: ../elementor/widgets/bacola-banner-box.php:37 
+#: ../elementor/widgets/bacola-banner-box2.php:37 
+#: ../elementor/widgets/bacola-banner-box3.php:37 
+#: ../elementor/widgets/bacola-banner-box3.php:111 
+#: ../elementor/widgets/bacola-banner-box4.php:125 
+#: ../elementor/widgets/bacola-banner-box5.php:85 
+#: ../elementor/widgets/bacola-home-slider.php:37 
+#: ../elementor/widgets/bacola-product-categories.php:38 
+#: ../elementor/widgets/bacola-text-banner.php:37 ../inc/customizer.php:320 
+#: ../inc/customizer.php:1351 ../inc/customizer.php:1735 
+#: ../inc/customizer.php:3770
+msgid "Type 1"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:56 
+#: ../elementor/widgets/bacola-latest-blog.php:33 
+#: ../elementor/widgets/bacola-product-categories.php:85
+msgid "Column"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:60 
+#: ../elementor/classes/class-helpers-functions.php:76 
+#: ../elementor/widgets/bacola-latest-blog.php:37 
+#: ../elementor/widgets/bacola-product-categories.php:89 
+#: ../elementor/widgets/bacola-product-categories.php:107 
+#: ../elementor/widgets/bacola-product-categories.php:125
+msgid "Select Column"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:61 
+#: ../elementor/classes/class-helpers-functions.php:78 
+#: ../elementor/widgets/bacola-latest-blog.php:38 
+#: ../elementor/widgets/bacola-product-categories.php:90 
+#: ../elementor/widgets/bacola-product-categories.php:108 
+#: ../elementor/widgets/bacola-product-categories.php:126 
+#: ../inc/customizer.php:2074
+msgid "2 Columns"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:62 
+#: ../elementor/widgets/bacola-latest-blog.php:39 
+#: ../elementor/widgets/bacola-product-categories.php:91 
+#: ../elementor/widgets/bacola-product-categories.php:109 
+#: ../elementor/widgets/bacola-product-categories.php:127 
+#: ../inc/customizer.php:2073 ../inc/customizer.php:3314
+msgid "3 Columns"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:63 
+#: ../elementor/widgets/bacola-latest-blog.php:40 
+#: ../elementor/widgets/bacola-product-categories.php:92 
+#: ../elementor/widgets/bacola-product-categories.php:110 
+#: ../elementor/widgets/bacola-product-categories.php:128 
+#: ../inc/customizer.php:2072 ../inc/customizer.php:3313
+msgid "4 Columns"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:64 
+#: ../elementor/widgets/bacola-product-categories.php:93 
+#: ../elementor/widgets/bacola-product-categories.php:111 
+#: ../elementor/widgets/bacola-product-categories.php:129 
+#: ../inc/customizer.php:2071 ../inc/customizer.php:3312
+msgid "5 Columns"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:65 
+#: ../elementor/widgets/bacola-product-categories.php:94 
+#: ../elementor/widgets/bacola-product-categories.php:112 
+#: ../elementor/widgets/bacola-product-categories.php:130 
+#: ../inc/customizer.php:3311
+msgid "6 Columns"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:72 
+#: ../elementor/widgets/bacola-product-categories.php:121
+msgid "Mobile Column"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:77
+msgid "1 Column"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:86 
+#: ../elementor/widgets/bacola-counter-product.php:34 
+#: ../elementor/widgets/bacola-deal-carousel.php:73 
+#: ../elementor/widgets/bacola-latest-blog.php:47 
+#: ../elementor/widgets/bacola-product-grid2.php:73 
+#: ../elementor/widgets/bacola-product-list.php:44 
+#: ../elementor/widgets/bacola-special-products.php:64
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:96 
+#: ../elementor/widgets/bacola-counter-product.php:44 
+#: ../elementor/widgets/bacola-deal-carousel.php:83 
+#: ../elementor/widgets/bacola-product-grid2.php:83 
+#: ../elementor/widgets/bacola-product-list.php:54 
+#: ../elementor/widgets/bacola-special-products.php:74
+msgid "Filter Category"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:108 
+#: ../elementor/widgets/bacola-product-grid2.php:95
+msgid "Filter Tag"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:120 
+#: ../elementor/widgets/bacola-counter-product.php:56 
+#: ../elementor/widgets/bacola-deal-carousel.php:95 
+#: ../elementor/widgets/bacola-product-grid2.php:107 
+#: ../elementor/widgets/bacola-product-list.php:66 
+#: ../elementor/widgets/bacola-special-products.php:86
+msgid "Include Post"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:131 
+#: ../elementor/widgets/bacola-counter-product.php:67 
+#: ../elementor/widgets/bacola-deal-carousel.php:106 
+#: ../elementor/widgets/bacola-latest-blog.php:79 
+#: ../elementor/widgets/bacola-product-categories.php:196 
+#: ../elementor/widgets/bacola-product-grid2.php:118 
+#: ../elementor/widgets/bacola-product-list.php:77 
+#: ../elementor/widgets/bacola-special-products.php:97
+msgid "Select Order"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:134 
+#: ../elementor/widgets/bacola-counter-product.php:70 
+#: ../elementor/widgets/bacola-deal-carousel.php:109 
+#: ../elementor/widgets/bacola-latest-blog.php:82 
+#: ../elementor/widgets/bacola-product-categories.php:199 
+#: ../elementor/widgets/bacola-product-grid2.php:121 
+#: ../elementor/widgets/bacola-product-list.php:80 
+#: ../elementor/widgets/bacola-special-products.php:100
+msgid "Ascending"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:135 
+#: ../elementor/widgets/bacola-counter-product.php:71 
+#: ../elementor/widgets/bacola-deal-carousel.php:110 
+#: ../elementor/widgets/bacola-latest-blog.php:83 
+#: ../elementor/widgets/bacola-product-categories.php:200 
+#: ../elementor/widgets/bacola-product-grid2.php:122 
+#: ../elementor/widgets/bacola-product-list.php:81 
+#: ../elementor/widgets/bacola-special-products.php:101
+msgid "Descending"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:143 
+#: ../elementor/widgets/bacola-counter-product.php:79 
+#: ../elementor/widgets/bacola-deal-carousel.php:118 
+#: ../elementor/widgets/bacola-latest-blog.php:91 
+#: ../elementor/widgets/bacola-product-categories.php:208 
+#: ../elementor/widgets/bacola-product-grid2.php:130 
+#: ../elementor/widgets/bacola-product-list.php:89 
+#: ../elementor/widgets/bacola-special-products.php:109
+msgid "Order By"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:146 
+#: ../elementor/widgets/bacola-counter-product.php:82 
+#: ../elementor/widgets/bacola-deal-carousel.php:121 
+#: ../elementor/widgets/bacola-latest-blog.php:94 
+#: ../elementor/widgets/bacola-product-categories.php:211 
+#: ../elementor/widgets/bacola-product-grid2.php:133 
+#: ../elementor/widgets/bacola-product-list.php:92 
+#: ../elementor/widgets/bacola-special-products.php:112
+msgid "Post ID"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:147 
+#: ../elementor/widgets/bacola-counter-product.php:83 
+#: ../elementor/widgets/bacola-deal-carousel.php:122 
+#: ../elementor/widgets/bacola-latest-blog.php:95 
+#: ../elementor/widgets/bacola-product-categories.php:212 
+#: ../elementor/widgets/bacola-product-grid2.php:134 
+#: ../elementor/widgets/bacola-product-list.php:93 
+#: ../elementor/widgets/bacola-special-products.php:113
+msgid "Menu Order"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:148 
+#: ../elementor/widgets/bacola-counter-product.php:84 
+#: ../elementor/widgets/bacola-deal-carousel.php:123 
+#: ../elementor/widgets/bacola-latest-blog.php:96 
+#: ../elementor/widgets/bacola-product-categories.php:213 
+#: ../elementor/widgets/bacola-product-grid2.php:135 
+#: ../elementor/widgets/bacola-product-list.php:94 
+#: ../elementor/widgets/bacola-special-products.php:114
+msgid "Random"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:149 
+#: ../elementor/widgets/bacola-counter-product.php:85 
+#: ../elementor/widgets/bacola-deal-carousel.php:124 
+#: ../elementor/widgets/bacola-latest-blog.php:97 
+#: ../elementor/widgets/bacola-product-categories.php:214 
+#: ../elementor/widgets/bacola-product-grid2.php:136 
+#: ../elementor/widgets/bacola-product-list.php:95 
+#: ../elementor/widgets/bacola-special-products.php:115
+msgid "Date"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:150 
+#: ../elementor/widgets/bacola-banner-box.php:55 
+#: ../elementor/widgets/bacola-banner-box2.php:55 
+#: ../elementor/widgets/bacola-banner-box3.php:56 
+#: ../elementor/widgets/bacola-banner-box4.php:42 
+#: ../elementor/widgets/bacola-banner-box5.php:42 
+#: ../elementor/widgets/bacola-category-banner.php:33 
+#: ../elementor/widgets/bacola-category-banner2.php:33 
+#: ../elementor/widgets/bacola-contact-form-7.php:43 
+#: ../elementor/widgets/bacola-counter-product.php:86 
+#: ../elementor/widgets/bacola-deal-carousel.php:33 
+#: ../elementor/widgets/bacola-deal-carousel.php:125 
+#: ../elementor/widgets/bacola-hero-banner.php:42 
+#: ../elementor/widgets/bacola-icon-box.php:68 
+#: ../elementor/widgets/bacola-latest-blog.php:98 
+#: ../elementor/widgets/bacola-product-carousel.php:33 
+#: ../elementor/widgets/bacola-product-categories.php:215 
+#: ../elementor/widgets/bacola-product-grid.php:33 
+#: ../elementor/widgets/bacola-product-grid2.php:33 
+#: ../elementor/widgets/bacola-product-grid2.php:137 
+#: ../elementor/widgets/bacola-product-grid2.php:210 
+#: ../elementor/widgets/bacola-product-list.php:33 
+#: ../elementor/widgets/bacola-product-list.php:96 
+#: ../elementor/widgets/bacola-special-products.php:33 
+#: ../elementor/widgets/bacola-special-products.php:116 
+#: ../elementor/widgets/bacola-testimonial.php:32 
+#: ../elementor/widgets/bacola-text-banner.php:45 ../inc/customizer.php:2942 
+#: ../inc/customizer.php:3904
+msgid "Title"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:158 
+#: ../elementor/widgets/bacola-product-grid2.php:145 
+#: ../elementor/widgets/bacola-product-list.php:104 
+#: ../elementor/widgets/bacola-special-products.php:124
+msgid "Hide Out of Stock?"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:160 
+#: ../elementor/classes/class-helpers-functions.php:171 
+#: ../elementor/classes/class-helpers-functions.php:182 
+#: ../elementor/classes/class-helpers-functions.php:193 
+#: ../elementor/widgets/bacola-counter-product.php:96 
+#: ../elementor/widgets/bacola-counter-product.php:107 
+#: ../elementor/widgets/bacola-counter-product.php:118 
+#: ../elementor/widgets/bacola-home-slider.php:48 
+#: ../elementor/widgets/bacola-home-slider.php:70 
+#: ../elementor/widgets/bacola-home-slider.php:81 
+#: ../elementor/widgets/bacola-home-slider.php:102 
+#: ../elementor/widgets/bacola-product-carousel.php:74 
+#: ../elementor/widgets/bacola-product-carousel.php:96 
+#: ../elementor/widgets/bacola-product-carousel.php:107 
+#: ../elementor/widgets/bacola-product-categories.php:141 
+#: ../elementor/widgets/bacola-product-categories.php:164 
+#: ../elementor/widgets/bacola-product-categories.php:176 
+#: ../elementor/widgets/bacola-product-grid2.php:147 
+#: ../elementor/widgets/bacola-product-grid2.php:158 
+#: ../elementor/widgets/bacola-product-grid2.php:169 
+#: ../elementor/widgets/bacola-product-grid2.php:180 
+#: ../elementor/widgets/bacola-product-list.php:106 
+#: ../elementor/widgets/bacola-product-list.php:117 
+#: ../elementor/widgets/bacola-product-list.php:128 
+#: ../elementor/widgets/bacola-product-list.php:139 
+#: ../elementor/widgets/bacola-special-products.php:126 
+#: ../elementor/widgets/bacola-special-products.php:137 
+#: ../elementor/widgets/bacola-special-products.php:148 
+#: ../elementor/widgets/bacola-special-products.php:159
+msgid "True"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:161 
+#: ../elementor/classes/class-helpers-functions.php:172 
+#: ../elementor/classes/class-helpers-functions.php:183 
+#: ../elementor/classes/class-helpers-functions.php:194 
+#: ../elementor/widgets/bacola-counter-product.php:97 
+#: ../elementor/widgets/bacola-counter-product.php:108 
+#: ../elementor/widgets/bacola-counter-product.php:119 
+#: ../elementor/widgets/bacola-home-slider.php:49 
+#: ../elementor/widgets/bacola-home-slider.php:71 
+#: ../elementor/widgets/bacola-home-slider.php:82 
+#: ../elementor/widgets/bacola-home-slider.php:103 
+#: ../elementor/widgets/bacola-product-carousel.php:75 
+#: ../elementor/widgets/bacola-product-carousel.php:97 
+#: ../elementor/widgets/bacola-product-carousel.php:108 
+#: ../elementor/widgets/bacola-product-categories.php:142 
+#: ../elementor/widgets/bacola-product-categories.php:165 
+#: ../elementor/widgets/bacola-product-categories.php:177 
+#: ../elementor/widgets/bacola-product-grid2.php:148 
+#: ../elementor/widgets/bacola-product-grid2.php:159 
+#: ../elementor/widgets/bacola-product-grid2.php:170 
+#: ../elementor/widgets/bacola-product-grid2.php:181 
+#: ../elementor/widgets/bacola-product-list.php:107 
+#: ../elementor/widgets/bacola-product-list.php:118 
+#: ../elementor/widgets/bacola-product-list.php:129 
+#: ../elementor/widgets/bacola-product-list.php:140 
+#: ../elementor/widgets/bacola-special-products.php:127 
+#: ../elementor/widgets/bacola-special-products.php:138 
+#: ../elementor/widgets/bacola-special-products.php:149 
+#: ../elementor/widgets/bacola-special-products.php:160
+msgid "False"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:169 
+#: ../elementor/widgets/bacola-counter-product.php:94 
+#: ../elementor/widgets/bacola-product-grid2.php:156 
+#: ../elementor/widgets/bacola-product-list.php:115 
+#: ../elementor/widgets/bacola-special-products.php:135
+msgid "On Sale Products?"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:180 
+#: ../elementor/widgets/bacola-counter-product.php:105 
+#: ../elementor/widgets/bacola-product-grid2.php:167 
+#: ../elementor/widgets/bacola-product-list.php:126 
+#: ../elementor/widgets/bacola-special-products.php:146
+msgid "Featured Products?"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:191 
+#: ../elementor/widgets/bacola-counter-product.php:116 
+#: ../elementor/widgets/bacola-product-grid2.php:178 
+#: ../elementor/widgets/bacola-product-list.php:137 
+#: ../elementor/widgets/bacola-special-products.php:157
+msgid "Best Selling Products?"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:309 
+#: ../woocommerce-filter/swatches/swatches.php:91
+msgid "Button"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:315 
+#: ../elementor/widgets/bacola-banner-box3.php:106 
+#: ../elementor/widgets/bacola-banner-box4.php:120 
+#: ../elementor/widgets/bacola-banner-box5.php:80
+msgid "Button Type"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:319 
+#: ../elementor/classes/class-helpers-functions.php:335
+msgid "Select a option"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:320
+msgid "Primary"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:321
+msgid "Black"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:322
+msgid "White"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:323
+msgid "Outline white"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:324
+msgid "Outline black"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:325
+msgid "Simple Text"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:331 
+#: ../inc/customizer.php:157
+msgid "Button Style"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:336
+msgid "Square"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:337
+msgid "Round"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:338
+msgid "Circle"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:348 
+#: ../elementor/widgets/bacola-banner-box.php:169 
+#: ../elementor/widgets/bacola-banner-box2.php:198 
+#: ../elementor/widgets/bacola-banner-box4.php:223 
+#: ../elementor/widgets/bacola-banner-box5.php:182 
+#: ../elementor/widgets/bacola-category-banner.php:174 
+#: ../elementor/widgets/bacola-category-banner2.php:186 
+#: ../elementor/widgets/bacola-deal-carousel.php:188 
+#: ../elementor/widgets/bacola-hero-banner.php:99 
+#: ../elementor/widgets/bacola-icon-box.php:332 
+#: ../elementor/widgets/bacola-icon-list.php:196 
+#: ../elementor/widgets/bacola-product-carousel.php:167 
+#: ../elementor/widgets/bacola-product-grid.php:113 
+#: ../elementor/widgets/bacola-product-grid2.php:296 
+#: ../elementor/widgets/bacola-product-list.php:184 
+#: ../elementor/widgets/bacola-special-products.php:223 
+#: ../elementor/widgets/bacola-testimonial.php:138 
+#: ../elementor/widgets/bacola-testimonial.php:240 
+#: ../elementor/widgets/bacola-testimonial.php:342 
+#: ../elementor/widgets/bacola-testimonial.php:444 
+#: ../elementor/widgets/bacola-testimonial.php:546 
+#: ../elementor/widgets/bacola-text-banner.php:353
+msgid "Size"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:352
+msgid "Select size"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:353
+msgid "Large"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:354
+msgid "medium"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:355
+msgid "small"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:366 
+#: ../elementor/widgets/bacola-contact-form-7.php:70 
+#: ../elementor/widgets/bacola-text-banner.php:97
+msgid "Alignment"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:371 
+#: ../elementor/widgets/bacola-banner-box.php:181 
+#: ../elementor/widgets/bacola-banner-box.php:274 
+#: ../elementor/widgets/bacola-banner-box.php:367 
+#: ../elementor/widgets/bacola-banner-box.php:460 
+#: ../elementor/widgets/bacola-banner-box.php:553 
+#: ../elementor/widgets/bacola-banner-box.php:642 
+#: ../elementor/widgets/bacola-banner-box2.php:211 
+#: ../elementor/widgets/bacola-banner-box2.php:309 
+#: ../elementor/widgets/bacola-banner-box3.php:218 
+#: ../elementor/widgets/bacola-banner-box3.php:316 
+#: ../elementor/widgets/bacola-banner-box3.php:413 
+#: ../elementor/widgets/bacola-banner-box3.php:512 
+#: ../elementor/widgets/bacola-banner-box4.php:235 
+#: ../elementor/widgets/bacola-banner-box4.php:329 
+#: ../elementor/widgets/bacola-banner-box4.php:422 
+#: ../elementor/widgets/bacola-banner-box4.php:576 
+#: ../elementor/widgets/bacola-banner-box4.php:669 
+#: ../elementor/widgets/bacola-banner-box4.php:755 
+#: ../elementor/widgets/bacola-banner-box5.php:194 
+#: ../elementor/widgets/bacola-banner-box5.php:288 
+#: ../elementor/widgets/bacola-banner-box5.php:384 
+#: ../elementor/widgets/bacola-category-banner.php:186 
+#: ../elementor/widgets/bacola-category-banner.php:288 
+#: ../elementor/widgets/bacola-category-banner2.php:198 
+#: ../elementor/widgets/bacola-category-banner2.php:300 
+#: ../elementor/widgets/bacola-contact-form-7.php:75 
+#: ../elementor/widgets/bacola-deal-carousel.php:200 
+#: ../elementor/widgets/bacola-deal-carousel.php:302 
+#: ../elementor/widgets/bacola-hero-banner.php:111 
+#: ../elementor/widgets/bacola-hero-banner.php:213 
+#: ../elementor/widgets/bacola-home-slider.php:299 
+#: ../elementor/widgets/bacola-home-slider.php:392 
+#: ../elementor/widgets/bacola-home-slider.php:485 
+#: ../elementor/widgets/bacola-home-slider.php:587 
+#: ../elementor/widgets/bacola-home-slider.php:680 
+#: ../elementor/widgets/bacola-home-slider.php:773 
+#: ../elementor/widgets/bacola-home-slider.php:838 
+#: ../elementor/widgets/bacola-icon-box.php:123 
+#: ../elementor/widgets/bacola-icon-box.php:241 
+#: ../elementor/widgets/bacola-icon-box.php:344 
+#: ../elementor/widgets/bacola-product-carousel.php:179 
+#: ../elementor/widgets/bacola-product-carousel.php:281 
+#: ../elementor/widgets/bacola-product-grid.php:125 
+#: ../elementor/widgets/bacola-product-grid.php:227 
+#: ../elementor/widgets/bacola-product-grid2.php:308 
+#: ../elementor/widgets/bacola-product-grid2.php:410 
+#: ../elementor/widgets/bacola-product-list.php:196 
+#: ../elementor/widgets/bacola-testimonial.php:150 
+#: ../elementor/widgets/bacola-testimonial.php:252 
+#: ../elementor/widgets/bacola-testimonial.php:354 
+#: ../elementor/widgets/bacola-testimonial.php:456 
+#: ../elementor/widgets/bacola-testimonial.php:558 
+#: ../elementor/widgets/bacola-text-banner.php:102 
+#: ../elementor/widgets/bacola-text-banner.php:230 
+#: ../elementor/widgets/bacola-text-banner.php:366 
+#: ../elementor/widgets/bacola-text-banner.php:485
+msgid "Left"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:375 
+#: ../elementor/widgets/bacola-contact-form-7.php:79 
+#: ../elementor/widgets/bacola-text-banner.php:106
+msgid "Center"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:379 
+#: ../elementor/widgets/bacola-banner-box2.php:137 
+#: ../elementor/widgets/bacola-banner-box2.php:409 
+#: ../elementor/widgets/bacola-category-banner.php:373 
+#: ../elementor/widgets/bacola-category-banner2.php:385 
+#: ../elementor/widgets/bacola-contact-form-7.php:83 
+#: ../elementor/widgets/bacola-deal-carousel.php:388 
+#: ../elementor/widgets/bacola-product-carousel.php:377 
+#: ../elementor/widgets/bacola-product-grid.php:323 
+#: ../elementor/widgets/bacola-product-grid2.php:506 
+#: ../elementor/widgets/bacola-special-products.php:235 
+#: ../elementor/widgets/bacola-special-products.php:337 
+#: ../elementor/widgets/bacola-text-banner.php:110
+msgid "Right"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:391
+msgid "Full width"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:403 
+#: ../elementor/classes/class-helpers-functions.php:406
+msgid "Button Text"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:411 
+#: ../elementor/widgets/bacola-banner-box.php:116 
+#: ../elementor/widgets/bacola-banner-box2.php:87 
+#: ../elementor/widgets/bacola-banner-box3.php:97 
+#: ../elementor/widgets/bacola-banner-box4.php:111 
+#: ../elementor/widgets/bacola-banner-box5.php:71 
+#: ../elementor/widgets/bacola-category-banner.php:63 
+#: ../elementor/widgets/bacola-category-banner.php:128 
+#: ../elementor/widgets/bacola-category-banner2.php:63 
+#: ../elementor/widgets/bacola-category-banner2.php:140 
+#: ../elementor/widgets/bacola-deal-carousel.php:63 
+#: ../elementor/widgets/bacola-home-slider.php:190 
+#: ../elementor/widgets/bacola-product-carousel.php:63 
+#: ../elementor/widgets/bacola-product-grid.php:63 
+#: ../elementor/widgets/bacola-product-grid2.php:63 
+#: ../elementor/widgets/bacola-text-banner.php:77
+msgid "Button Link"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:433
+msgid "Icon Position"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:438
+msgid "Before"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:439
+msgid "After"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:446 
+#: ../elementor/widgets/bacola-category-banner.php:438 
+#: ../elementor/widgets/bacola-category-banner2.php:449 
+#: ../elementor/widgets/bacola-contact-form-7.php:119 
+#: ../elementor/widgets/bacola-contact-form-7.php:212 
+#: ../elementor/widgets/bacola-deal-carousel.php:452 
+#: ../elementor/widgets/bacola-product-carousel.php:431 
+#: ../elementor/widgets/bacola-product-grid.php:377 
+#: ../elementor/widgets/bacola-product-grid2.php:560
+msgid "Normal"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:452 
+#: ../elementor/classes/class-helpers-functions.php:490
+msgid "Icon Spacing"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:468 
+#: ../elementor/classes/class-helpers-functions.php:506 
+#: ../elementor/widgets/bacola-banner-box.php:223 
+#: ../elementor/widgets/bacola-banner-box.php:316 
+#: ../elementor/widgets/bacola-banner-box.php:409 
+#: ../elementor/widgets/bacola-banner-box.php:502 
+#: ../elementor/widgets/bacola-banner-box.php:595 
+#: ../elementor/widgets/bacola-banner-box.php:728 
+#: ../elementor/widgets/bacola-banner-box2.php:255 
+#: ../elementor/widgets/bacola-banner-box2.php:351 
+#: ../elementor/widgets/bacola-banner-box2.php:495 
+#: ../elementor/widgets/bacola-banner-box3.php:260 
+#: ../elementor/widgets/bacola-banner-box3.php:360 
+#: ../elementor/widgets/bacola-banner-box3.php:455 
+#: ../elementor/widgets/bacola-banner-box3.php:598 
+#: ../elementor/widgets/bacola-banner-box4.php:277 
+#: ../elementor/widgets/bacola-banner-box4.php:371 
+#: ../elementor/widgets/bacola-banner-box4.php:464 
+#: ../elementor/widgets/bacola-banner-box4.php:524 
+#: ../elementor/widgets/bacola-banner-box4.php:618 
+#: ../elementor/widgets/bacola-banner-box4.php:711 
+#: ../elementor/widgets/bacola-banner-box4.php:814 
+#: ../elementor/widgets/bacola-banner-box5.php:236 
+#: ../elementor/widgets/bacola-banner-box5.php:330 
+#: ../elementor/widgets/bacola-banner-box5.php:464 
+#: ../elementor/widgets/bacola-category-banner.php:228 
+#: ../elementor/widgets/bacola-category-banner.php:330 
+#: ../elementor/widgets/bacola-category-banner.php:415 
+#: ../elementor/widgets/bacola-category-banner2.php:240 
+#: ../elementor/widgets/bacola-category-banner2.php:342 
+#: ../elementor/widgets/bacola-category-banner2.php:427 
+#: ../elementor/widgets/bacola-contact-form-7.php:125 
+#: ../elementor/widgets/bacola-contact-form-7.php:144 
+#: ../elementor/widgets/bacola-contact-form-7.php:163 
+#: ../elementor/widgets/bacola-contact-form-7.php:218 
+#: ../elementor/widgets/bacola-contact-form-7.php:237 
+#: ../elementor/widgets/bacola-deal-carousel.php:242 
+#: ../elementor/widgets/bacola-deal-carousel.php:344 
+#: ../elementor/widgets/bacola-deal-carousel.php:430 
+#: ../elementor/widgets/bacola-hero-banner.php:153 
+#: ../elementor/widgets/bacola-hero-banner.php:255 
+#: ../elementor/widgets/bacola-home-slider.php:341 
+#: ../elementor/widgets/bacola-home-slider.php:434 
+#: ../elementor/widgets/bacola-home-slider.php:527 
+#: ../elementor/widgets/bacola-home-slider.php:629 
+#: ../elementor/widgets/bacola-home-slider.php:722 
+#: ../elementor/widgets/bacola-home-slider.php:794 
+#: ../elementor/widgets/bacola-home-slider.php:897 
+#: ../elementor/widgets/bacola-icon-box.php:165 
+#: ../elementor/widgets/bacola-icon-box.php:283 
+#: ../elementor/widgets/bacola-icon-box.php:386 
+#: ../elementor/widgets/bacola-icon-list.php:149 
+#: ../elementor/widgets/bacola-icon-list.php:208 
+#: ../elementor/widgets/bacola-product-carousel.php:221 
+#: ../elementor/widgets/bacola-product-carousel.php:323 
+#: ../elementor/widgets/bacola-product-carousel.php:419 
+#: ../elementor/widgets/bacola-product-grid.php:167 
+#: ../elementor/widgets/bacola-product-grid.php:269 
+#: ../elementor/widgets/bacola-product-grid.php:365 
+#: ../elementor/widgets/bacola-product-grid2.php:350 
+#: ../elementor/widgets/bacola-product-grid2.php:452 
+#: ../elementor/widgets/bacola-product-grid2.php:548 
+#: ../elementor/widgets/bacola-product-list.php:238 
+#: ../elementor/widgets/bacola-special-products.php:277 
+#: ../elementor/widgets/bacola-special-products.php:379 
+#: ../elementor/widgets/bacola-special-products.php:487 
+#: ../elementor/widgets/bacola-testimonial.php:192 
+#: ../elementor/widgets/bacola-testimonial.php:294 
+#: ../elementor/widgets/bacola-testimonial.php:396 
+#: ../elementor/widgets/bacola-testimonial.php:498 
+#: ../elementor/widgets/bacola-testimonial.php:600 
+#: ../elementor/widgets/bacola-text-banner.php:154 
+#: ../elementor/widgets/bacola-text-banner.php:320 
+#: ../elementor/widgets/bacola-text-banner.php:439
+msgid "Opacity"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:484 
+#: ../elementor/widgets/bacola-category-banner.php:481 
+#: ../elementor/widgets/bacola-category-banner2.php:492 
+#: ../elementor/widgets/bacola-contact-form-7.php:138 
+#: ../elementor/widgets/bacola-contact-form-7.php:231 
+#: ../elementor/widgets/bacola-deal-carousel.php:495 
+#: ../elementor/widgets/bacola-product-carousel.php:474 
+#: ../elementor/widgets/bacola-product-grid.php:420 
+#: ../elementor/widgets/bacola-product-grid2.php:603
+msgid "Hover"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:534 
+#: ../elementor/widgets/bacola-banner-box.php:686 
+#: ../elementor/widgets/bacola-banner-box2.php:453 
+#: ../elementor/widgets/bacola-banner-box3.php:556 
+#: ../elementor/widgets/bacola-banner-box4.php:776 
+#: ../elementor/widgets/bacola-banner-box5.php:426 
+#: ../elementor/widgets/bacola-category-banner.php:443 
+#: ../elementor/widgets/bacola-category-banner.php:486 
+#: ../elementor/widgets/bacola-category-banner2.php:454 
+#: ../elementor/widgets/bacola-category-banner2.php:497 
+#: ../elementor/widgets/bacola-deal-carousel.php:457 
+#: ../elementor/widgets/bacola-deal-carousel.php:500 
+#: ../elementor/widgets/bacola-home-slider.php:859 
+#: ../elementor/widgets/bacola-product-carousel.php:436 
+#: ../elementor/widgets/bacola-product-carousel.php:479 
+#: ../elementor/widgets/bacola-product-grid.php:382 
+#: ../elementor/widgets/bacola-product-grid.php:425 
+#: ../elementor/widgets/bacola-product-grid2.php:565 
+#: ../elementor/widgets/bacola-product-grid2.php:608 
+#: ../woocommerce-filter/swatches/swatches.php:89 
+#: ../woocommerce-filter/swatches/swatches.php:121
+msgid "Color"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:547 
+#: ../elementor/widgets/bacola-banner-box.php:237 
+#: ../elementor/widgets/bacola-banner-box.php:330 
+#: ../elementor/widgets/bacola-banner-box.php:423 
+#: ../elementor/widgets/bacola-banner-box.php:516 
+#: ../elementor/widgets/bacola-banner-box.php:633 
+#: ../elementor/widgets/bacola-banner-box2.php:271 
+#: ../elementor/widgets/bacola-banner-box2.php:366 
+#: ../elementor/widgets/bacola-banner-box2.php:400 
+#: ../elementor/widgets/bacola-banner-box3.php:275 
+#: ../elementor/widgets/bacola-banner-box3.php:375 
+#: ../elementor/widgets/bacola-banner-box3.php:469 
+#: ../elementor/widgets/bacola-banner-box3.php:503 
+#: ../elementor/widgets/bacola-banner-box4.php:291 
+#: ../elementor/widgets/bacola-banner-box4.php:385 
+#: ../elementor/widgets/bacola-banner-box4.php:478 
+#: ../elementor/widgets/bacola-banner-box4.php:538 
+#: ../elementor/widgets/bacola-banner-box4.php:632 
+#: ../elementor/widgets/bacola-banner-box4.php:747 
+#: ../elementor/widgets/bacola-banner-box5.php:250 
+#: ../elementor/widgets/bacola-banner-box5.php:344 
+#: ../elementor/widgets/bacola-banner-box5.php:376 
+#: ../elementor/widgets/bacola-category-banner.php:242 
+#: ../elementor/widgets/bacola-category-banner.php:344 
+#: ../elementor/widgets/bacola-category-banner.php:429 
+#: ../elementor/widgets/bacola-category-banner2.php:254 
+#: ../elementor/widgets/bacola-category-banner2.php:356 
+#: ../elementor/widgets/bacola-category-banner2.php:441 
+#: ../elementor/widgets/bacola-deal-carousel.php:256 
+#: ../elementor/widgets/bacola-deal-carousel.php:358 
+#: ../elementor/widgets/bacola-deal-carousel.php:444 
+#: ../elementor/widgets/bacola-hero-banner.php:167 
+#: ../elementor/widgets/bacola-hero-banner.php:269 
+#: ../elementor/widgets/bacola-home-slider.php:355 
+#: ../elementor/widgets/bacola-home-slider.php:448 
+#: ../elementor/widgets/bacola-home-slider.php:541 
+#: ../elementor/widgets/bacola-home-slider.php:643 
+#: ../elementor/widgets/bacola-home-slider.php:736 
+#: ../elementor/widgets/bacola-home-slider.php:830 
+#: ../elementor/widgets/bacola-icon-box.php:297 
+#: ../elementor/widgets/bacola-icon-box.php:400 
+#: ../elementor/widgets/bacola-icon-list.php:231 
+#: ../elementor/widgets/bacola-product-carousel.php:235 
+#: ../elementor/widgets/bacola-product-carousel.php:337 
+#: ../elementor/widgets/bacola-product-carousel.php:369 
+#: ../elementor/widgets/bacola-product-grid.php:181 
+#: ../elementor/widgets/bacola-product-grid.php:283 
+#: ../elementor/widgets/bacola-product-grid.php:315 
+#: ../elementor/widgets/bacola-product-grid2.php:364 
+#: ../elementor/widgets/bacola-product-grid2.php:466 
+#: ../elementor/widgets/bacola-product-grid2.php:498 
+#: ../elementor/widgets/bacola-product-list.php:252 
+#: ../elementor/widgets/bacola-special-products.php:291 
+#: ../elementor/widgets/bacola-special-products.php:393 
+#: ../elementor/widgets/bacola-testimonial.php:206 
+#: ../elementor/widgets/bacola-testimonial.php:308 
+#: ../elementor/widgets/bacola-testimonial.php:410 
+#: ../elementor/widgets/bacola-testimonial.php:512 
+#: ../elementor/widgets/bacola-testimonial.php:614 
+#: ../elementor/widgets/bacola-text-banner.php:282 
+#: ../elementor/widgets/bacola-text-banner.php:421 
+#: ../elementor/widgets/bacola-text-banner.php:540
+msgid "Typography"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:558 
+#: ../elementor/widgets/bacola-banner-box.php:143 
+#: ../elementor/widgets/bacola-banner-box.php:621 
+#: ../elementor/widgets/bacola-banner-box2.php:388 
+#: ../elementor/widgets/bacola-banner-box3.php:180 
+#: ../elementor/widgets/bacola-banner-box3.php:491 
+#: ../elementor/widgets/bacola-banner-box4.php:155 
+#: ../elementor/widgets/bacola-banner-box4.php:736 
+#: ../elementor/widgets/bacola-banner-box5.php:114 
+#: ../elementor/widgets/bacola-banner-box5.php:365 
+#: ../elementor/widgets/bacola-category-banner.php:364 
+#: ../elementor/widgets/bacola-category-banner2.php:376 
+#: ../elementor/widgets/bacola-deal-carousel.php:379 
+#: ../elementor/widgets/bacola-home-slider.php:261 
+#: ../elementor/widgets/bacola-home-slider.php:819 
+#: ../elementor/widgets/bacola-product-carousel.php:358 
+#: ../elementor/widgets/bacola-product-grid.php:304 
+#: ../elementor/widgets/bacola-product-grid2.php:487 
+#: ../elementor/widgets/bacola-testimonial.php:103
+msgid "Padding"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:577
+msgid "Margin"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:597 
+#: ../elementor/widgets/bacola-banner-box.php:698 
+#: ../elementor/widgets/bacola-banner-box2.php:465 
+#: ../elementor/widgets/bacola-banner-box3.php:568 
+#: ../elementor/widgets/bacola-banner-box4.php:787 
+#: ../elementor/widgets/bacola-banner-box5.php:437 
+#: ../elementor/widgets/bacola-category-banner.php:454 
+#: ../elementor/widgets/bacola-category-banner.php:497 
+#: ../elementor/widgets/bacola-category-banner2.php:465 
+#: ../elementor/widgets/bacola-category-banner2.php:508 
+#: ../elementor/widgets/bacola-deal-carousel.php:468 
+#: ../elementor/widgets/bacola-deal-carousel.php:511 
+#: ../elementor/widgets/bacola-home-slider.php:870 
+#: ../elementor/widgets/bacola-product-carousel.php:447 
+#: ../elementor/widgets/bacola-product-carousel.php:490 
+#: ../elementor/widgets/bacola-product-grid.php:393 
+#: ../elementor/widgets/bacola-product-grid.php:436 
+#: ../elementor/widgets/bacola-product-grid2.php:576 
+#: ../elementor/widgets/bacola-product-grid2.php:619 
+#: ../elementor/widgets/bacola-text-banner.php:302
+msgid "Border"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:613 
+#: ../elementor/widgets/bacola-banner-box.php:706 
+#: ../elementor/widgets/bacola-banner-box2.php:473 
+#: ../elementor/widgets/bacola-banner-box3.php:576 
+#: ../elementor/widgets/bacola-banner-box4.php:794 
+#: ../elementor/widgets/bacola-banner-box5.php:444 
+#: ../elementor/widgets/bacola-category-banner.php:461 
+#: ../elementor/widgets/bacola-category-banner2.php:472 
+#: ../elementor/widgets/bacola-deal-carousel.php:475 
+#: ../elementor/widgets/bacola-home-slider.php:877 
+#: ../elementor/widgets/bacola-product-carousel.php:454 
+#: ../elementor/widgets/bacola-product-grid.php:400 
+#: ../elementor/widgets/bacola-product-grid2.php:583 
+#: ../elementor/widgets/bacola-testimonial.php:672 
+#: ../elementor/widgets/bacola-text-banner.php:310
+msgid "Border Radius"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:637
+msgid "Box shadow"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:649
+msgid "Text shadow"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:661
+msgid "Background"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:901
+msgid "None"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:902
+msgid "user"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:903
+msgid "youtube"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:904
+msgid "wordpress"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:905
+msgid "whatsapp"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:906
+msgid "watch"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:907
+msgid "vine"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:908
+msgid "eye"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:909
+msgid "twitter"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:910
+msgid "tripadvisor"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:911
+msgid "support"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:912
+msgid "star"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:913
+msgid "star-outline"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:914
+msgid "spotify"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:915
+msgid "soundcloud"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:916
+msgid "snapchat"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:917
+msgid "skype"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:918
+msgid "send"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:919
+msgid "search"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:920
+msgid "rss"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:921
+msgid "reddit"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:922
+msgid "quality"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:923
+msgid "pinterest"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:924
+msgid "odnoklassniki"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:925
+msgid "next"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:926
+msgid "myspace"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:927
+msgid "menu"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:928
+msgid "linkedin"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:929
+msgid "itunes"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:930
+msgid "internet"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:931
+msgid "instagram"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:932
+msgid "heart"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:933
+msgid "google-plus"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:934
+msgid "google-plus2"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:935
+msgid "github"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:936
+msgid "gift"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:937
+msgid "filter"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:938
+msgid "facebook"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:939
+msgid "exchange"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:940
+msgid "dribbble"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:941
+msgid "document"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:942
+msgid "digg"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:943
+msgid "delete"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:944
+msgid "close"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:945 
+#: ../elementor/widgets/bacola-latest-blog.php:209
+msgid "comment"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:946
+msgid "charity"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:947
+msgid "cart"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:948
+msgid "calendar"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:949
+msgid "box"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:950
+msgid "behance"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:951
+msgid "bag"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:952
+msgid "back"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:953
+msgid "avatar"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:954
+msgid "apple"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:955
+msgid "arrow-up"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:956
+msgid "arrow-right"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:957
+msgid "arrow-right2"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:958
+msgid "arrow-down"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:959
+msgid "arrow-down2"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:960
+msgid "arrow-500px2"
+msgstr ""
+
+#: ../elementor/classes/class-helpers-functions.php:961
+msgid "arrow-500px"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:25 
+#: ../elementor/widgets/bacola-banner-box2.php:25 
+#: ../elementor/widgets/bacola-banner-box3.php:25 
+#: ../elementor/widgets/bacola-banner-box4.php:25 
+#: ../elementor/widgets/bacola-banner-box5.php:25 
+#: ../elementor/widgets/bacola-category-banner.php:26 
+#: ../elementor/widgets/bacola-category-banner2.php:26 
+#: ../elementor/widgets/bacola-counter-product.php:26 
+#: ../elementor/widgets/bacola-deal-carousel.php:26 
+#: ../elementor/widgets/bacola-hero-banner.php:25 
+#: ../elementor/widgets/bacola-home-slider.php:25 
+#: ../elementor/widgets/bacola-icon-box.php:25 
+#: ../elementor/widgets/bacola-icon-list.php:25 
+#: ../elementor/widgets/bacola-latest-blog.php:26 
+#: ../elementor/widgets/bacola-product-carousel.php:26 
+#: ../elementor/widgets/bacola-product-categories.php:26 
+#: ../elementor/widgets/bacola-product-grid.php:26 
+#: ../elementor/widgets/bacola-product-grid2.php:26 
+#: ../elementor/widgets/bacola-product-list.php:26 
+#: ../elementor/widgets/bacola-special-products.php:26 
+#: ../elementor/widgets/bacola-testimonial.php:25 
+#: ../elementor/widgets/bacola-text-banner.php:25 
+#: ../elementor/widgets/bacola-vendor-grid.php:25
+msgid "Content"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:32 
+#: ../elementor/widgets/bacola-banner-box2.php:32 
+#: ../elementor/widgets/bacola-banner-box3.php:32 
+#: ../elementor/widgets/bacola-text-banner.php:32
+msgid "Banner Type"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:47 
+#: ../elementor/widgets/bacola-banner-box2.php:47 
+#: ../elementor/widgets/bacola-banner-box3.php:48 
+#: ../elementor/widgets/bacola-banner-box4.php:34 
+#: ../elementor/widgets/bacola-banner-box5.php:34 
+#: ../elementor/widgets/bacola-category-banner.php:90 
+#: ../elementor/widgets/bacola-category-banner2.php:92 
+#: ../elementor/widgets/bacola-hero-banner.php:34 
+#: ../elementor/widgets/bacola-home-slider.php:114 
+#: ../elementor/widgets/bacola-product-grid2.php:193 
+#: ../elementor/widgets/bacola-product-grid2.php:202 
+#: ../elementor/widgets/bacola-testimonial.php:45 ../inc/customizer.php:2085 
+#: ../inc/customizer.php:2164 ../inc/customizer.php:2999 
+#: ../inc/customizer.php:3218 ../inc/customizer.php:3280 
+#: ../inc/customizer.php:3679 ../inc/customizer.php:3789 
+#: ../woocommerce-filter/swatches/swatches.php:90
+msgid "Image"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:65 
+#: ../elementor/widgets/bacola-banner-box2.php:65 
+#: ../elementor/widgets/bacola-banner-box3.php:66 
+#: ../elementor/widgets/bacola-banner-box4.php:52 
+#: ../elementor/widgets/bacola-banner-box5.php:52 
+#: ../elementor/widgets/bacola-category-banner.php:43 
+#: ../elementor/widgets/bacola-category-banner2.php:43 
+#: ../elementor/widgets/bacola-contact-form-7.php:52 
+#: ../elementor/widgets/bacola-deal-carousel.php:43 
+#: ../elementor/widgets/bacola-hero-banner.php:52 
+#: ../elementor/widgets/bacola-product-carousel.php:43 
+#: ../elementor/widgets/bacola-product-grid.php:43 
+#: ../elementor/widgets/bacola-product-grid2.php:43 
+#: ../elementor/widgets/bacola-product-grid2.php:220 
+#: ../elementor/widgets/bacola-special-products.php:43 
+#: ../elementor/widgets/bacola-text-banner.php:66 ../inc/customizer.php:2961 
+#: ../inc/customizer.php:3940
+msgid "Subtitle"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:75 
+#: ../elementor/widgets/bacola-banner-box4.php:62 
+#: ../elementor/widgets/bacola-product-grid2.php:230
+msgid "Second Subtitle"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:85 
+#: ../elementor/widgets/bacola-banner-box4.php:82
+msgid "Price Text"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:89 
+#: ../elementor/widgets/bacola-banner-box4.php:86 
+#: ../elementor/widgets/bacola-home-slider.php:165
+msgid "Add the price text."
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:95 
+#: ../elementor/widgets/bacola-banner-box4.php:92
+msgid "Price"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:99 
+#: ../elementor/widgets/bacola-banner-box4.php:96 
+#: ../elementor/widgets/bacola-home-slider.php:175
+msgid "Add a price."
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:105 
+#: ../elementor/widgets/bacola-banner-box2.php:76 
+#: ../elementor/widgets/bacola-banner-box3.php:87 
+#: ../elementor/widgets/bacola-banner-box4.php:102 
+#: ../elementor/widgets/bacola-banner-box5.php:62 
+#: ../elementor/widgets/bacola-category-banner.php:53 
+#: ../elementor/widgets/bacola-category-banner.php:118 
+#: ../elementor/widgets/bacola-category-banner2.php:53 
+#: ../elementor/widgets/bacola-deal-carousel.php:53 
+#: ../elementor/widgets/bacola-home-slider.php:181 
+#: ../elementor/widgets/bacola-product-carousel.php:53 
+#: ../elementor/widgets/bacola-product-grid.php:53 
+#: ../elementor/widgets/bacola-product-grid2.php:53
+msgid "Button Title"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:109 
+#: ../elementor/widgets/bacola-banner-box2.php:80 
+#: ../elementor/widgets/bacola-banner-box3.php:91 
+#: ../elementor/widgets/bacola-banner-box4.php:106 
+#: ../elementor/widgets/bacola-banner-box5.php:66 
+#: ../elementor/widgets/bacola-category-banner.php:57 
+#: ../elementor/widgets/bacola-category-banner.php:122 
+#: ../elementor/widgets/bacola-category-banner2.php:57 
+#: ../elementor/widgets/bacola-deal-carousel.php:57 
+#: ../elementor/widgets/bacola-home-slider.php:185 
+#: ../elementor/widgets/bacola-product-carousel.php:57 
+#: ../elementor/widgets/bacola-product-grid.php:57 
+#: ../elementor/widgets/bacola-product-grid2.php:57
+msgid "Enter button title here"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:119 
+#: ../elementor/widgets/bacola-banner-box2.php:90 
+#: ../elementor/widgets/bacola-banner-box3.php:100 
+#: ../elementor/widgets/bacola-banner-box4.php:114 
+#: ../elementor/widgets/bacola-banner-box5.php:74 
+#: ../elementor/widgets/bacola-category-banner.php:66 
+#: ../elementor/widgets/bacola-category-banner.php:131 
+#: ../elementor/widgets/bacola-category-banner2.php:66 
+#: ../elementor/widgets/bacola-category-banner2.php:143 
+#: ../elementor/widgets/bacola-deal-carousel.php:66 
+#: ../elementor/widgets/bacola-home-slider.php:193 
+#: ../elementor/widgets/bacola-icon-box.php:89 
+#: ../elementor/widgets/bacola-product-carousel.php:66 
+#: ../elementor/widgets/bacola-product-grid.php:66 
+#: ../elementor/widgets/bacola-product-grid2.php:66 
+#: ../elementor/widgets/bacola-product-grid2.php:253 
+#: ../elementor/widgets/bacola-text-banner.php:80
+msgid "Place URL here"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:129 
+#: ../elementor/widgets/bacola-banner-box2.php:100 
+#: ../elementor/widgets/bacola-banner-box4.php:141 
+#: ../elementor/widgets/bacola-banner-box5.php:100 
+#: ../elementor/widgets/bacola-category-banner.php:141 
+#: ../elementor/widgets/bacola-category-banner2.php:153 
+#: ../elementor/widgets/bacola-deal-carousel.php:137 
+#: ../elementor/widgets/bacola-hero-banner.php:66 
+#: ../elementor/widgets/bacola-home-slider.php:247 
+#: ../elementor/widgets/bacola-icon-box.php:99 
+#: ../elementor/widgets/bacola-icon-list.php:107 
+#: ../elementor/widgets/bacola-product-carousel.php:134 
+#: ../elementor/widgets/bacola-product-grid.php:80 
+#: ../elementor/widgets/bacola-product-grid2.php:263 
+#: ../elementor/widgets/bacola-product-list.php:152 
+#: ../elementor/widgets/bacola-special-products.php:172 
+#: ../elementor/widgets/bacola-testimonial.php:95 
+#: ../elementor/widgets/bacola-text-banner.php:90
+msgid " Style"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:136 
+#: ../elementor/widgets/bacola-banner-box3.php:131 
+#: ../elementor/widgets/bacola-banner-box4.php:148 
+#: ../elementor/widgets/bacola-banner-box5.php:107 
+#: ../elementor/widgets/bacola-home-slider.php:254
+msgid "CONTENT"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:152 
+#: ../elementor/widgets/bacola-banner-box2.php:179 
+#: ../elementor/widgets/bacola-banner-box3.php:189 
+#: ../elementor/widgets/bacola-banner-box4.php:206 
+#: ../elementor/widgets/bacola-banner-box5.php:165 
+#: ../elementor/widgets/bacola-category-banner.php:148 
+#: ../elementor/widgets/bacola-category-banner2.php:160 
+#: ../elementor/widgets/bacola-deal-carousel.php:144 
+#: ../elementor/widgets/bacola-hero-banner.php:73 
+#: ../elementor/widgets/bacola-home-slider.php:270 
+#: ../elementor/widgets/bacola-icon-box.php:203 
+#: ../elementor/widgets/bacola-product-carousel.php:141 
+#: ../elementor/widgets/bacola-product-grid.php:87 
+#: ../elementor/widgets/bacola-product-grid2.php:270 
+#: ../elementor/widgets/bacola-product-list.php:159 
+#: ../elementor/widgets/bacola-special-products.php:179 
+#: ../elementor/widgets/bacola-testimonial.php:112 
+#: ../elementor/widgets/bacola-text-banner.php:146
+msgid "TITLE"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:160 
+#: ../elementor/widgets/bacola-banner-box2.php:188 
+#: ../elementor/widgets/bacola-banner-box3.php:197 
+#: ../elementor/widgets/bacola-banner-box4.php:214 
+#: ../elementor/widgets/bacola-banner-box5.php:173 
+#: ../elementor/widgets/bacola-category-banner.php:156 
+#: ../elementor/widgets/bacola-category-banner2.php:168 
+#: ../elementor/widgets/bacola-deal-carousel.php:152 
+#: ../elementor/widgets/bacola-hero-banner.php:81 
+#: ../elementor/widgets/bacola-home-slider.php:278 
+#: ../elementor/widgets/bacola-icon-box.php:211 
+#: ../elementor/widgets/bacola-product-carousel.php:149 
+#: ../elementor/widgets/bacola-product-grid.php:95 
+#: ../elementor/widgets/bacola-product-grid2.php:278 
+#: ../elementor/widgets/bacola-product-list.php:166 
+#: ../elementor/widgets/bacola-special-products.php:187 
+#: ../elementor/widgets/bacola-testimonial.php:120 
+#: ../elementor/widgets/bacola-text-banner.php:166
+msgid "Title Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:202 
+#: ../elementor/widgets/bacola-banner-box.php:295 
+#: ../elementor/widgets/bacola-banner-box.php:388 
+#: ../elementor/widgets/bacola-banner-box.php:481 
+#: ../elementor/widgets/bacola-banner-box.php:574 
+#: ../elementor/widgets/bacola-banner-box.php:664 
+#: ../elementor/widgets/bacola-banner-box2.php:158 
+#: ../elementor/widgets/bacola-banner-box2.php:233 
+#: ../elementor/widgets/bacola-banner-box2.php:330 
+#: ../elementor/widgets/bacola-banner-box2.php:431 
+#: ../elementor/widgets/bacola-banner-box3.php:239 
+#: ../elementor/widgets/bacola-banner-box3.php:338 
+#: ../elementor/widgets/bacola-banner-box3.php:434 
+#: ../elementor/widgets/bacola-banner-box3.php:534 
+#: ../elementor/widgets/bacola-banner-box4.php:256 
+#: ../elementor/widgets/bacola-banner-box4.php:350 
+#: ../elementor/widgets/bacola-banner-box4.php:443 
+#: ../elementor/widgets/bacola-banner-box4.php:597 
+#: ../elementor/widgets/bacola-banner-box4.php:690 
+#: ../elementor/widgets/bacola-banner-box5.php:215 
+#: ../elementor/widgets/bacola-banner-box5.php:309 
+#: ../elementor/widgets/bacola-banner-box5.php:405 
+#: ../elementor/widgets/bacola-category-banner.php:207 
+#: ../elementor/widgets/bacola-category-banner.php:309 
+#: ../elementor/widgets/bacola-category-banner.php:394 
+#: ../elementor/widgets/bacola-category-banner2.php:219 
+#: ../elementor/widgets/bacola-category-banner2.php:321 
+#: ../elementor/widgets/bacola-category-banner2.php:406 
+#: ../elementor/widgets/bacola-deal-carousel.php:221 
+#: ../elementor/widgets/bacola-deal-carousel.php:323 
+#: ../elementor/widgets/bacola-deal-carousel.php:409 
+#: ../elementor/widgets/bacola-hero-banner.php:132 
+#: ../elementor/widgets/bacola-hero-banner.php:234 
+#: ../elementor/widgets/bacola-home-slider.php:320 
+#: ../elementor/widgets/bacola-home-slider.php:413 
+#: ../elementor/widgets/bacola-home-slider.php:506 
+#: ../elementor/widgets/bacola-home-slider.php:608 
+#: ../elementor/widgets/bacola-home-slider.php:701 
+#: ../elementor/widgets/bacola-icon-box.php:144 
+#: ../elementor/widgets/bacola-icon-box.php:262 
+#: ../elementor/widgets/bacola-icon-box.php:365 
+#: ../elementor/widgets/bacola-product-carousel.php:200 
+#: ../elementor/widgets/bacola-product-carousel.php:302 
+#: ../elementor/widgets/bacola-product-carousel.php:398 
+#: ../elementor/widgets/bacola-product-grid.php:146 
+#: ../elementor/widgets/bacola-product-grid.php:248 
+#: ../elementor/widgets/bacola-product-grid.php:344 
+#: ../elementor/widgets/bacola-product-grid2.php:329 
+#: ../elementor/widgets/bacola-product-grid2.php:431 
+#: ../elementor/widgets/bacola-product-grid2.php:527 
+#: ../elementor/widgets/bacola-product-list.php:217 
+#: ../elementor/widgets/bacola-special-products.php:256 
+#: ../elementor/widgets/bacola-special-products.php:358 
+#: ../elementor/widgets/bacola-testimonial.php:171 
+#: ../elementor/widgets/bacola-testimonial.php:273 
+#: ../elementor/widgets/bacola-testimonial.php:375 
+#: ../elementor/widgets/bacola-testimonial.php:477 
+#: ../elementor/widgets/bacola-testimonial.php:579 
+#: ../elementor/widgets/bacola-text-banner.php:251 
+#: ../elementor/widgets/bacola-text-banner.php:388 
+#: ../elementor/widgets/bacola-text-banner.php:507
+msgid "Top"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:245 
+#: ../elementor/widgets/bacola-banner-box2.php:280 
+#: ../elementor/widgets/bacola-banner-box3.php:283 
+#: ../elementor/widgets/bacola-banner-box4.php:299 
+#: ../elementor/widgets/bacola-banner-box5.php:258 
+#: ../elementor/widgets/bacola-category-banner.php:250 
+#: ../elementor/widgets/bacola-category-banner2.php:262 
+#: ../elementor/widgets/bacola-deal-carousel.php:264 
+#: ../elementor/widgets/bacola-hero-banner.php:175 
+#: ../elementor/widgets/bacola-home-slider.php:363 
+#: ../elementor/widgets/bacola-product-carousel.php:243 
+#: ../elementor/widgets/bacola-product-grid.php:189 
+#: ../elementor/widgets/bacola-product-grid2.php:372 
+#: ../elementor/widgets/bacola-special-products.php:299 
+#: ../elementor/widgets/bacola-text-banner.php:430
+msgid "SUBTITLE"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:253 
+#: ../elementor/widgets/bacola-banner-box2.php:288 
+#: ../elementor/widgets/bacola-banner-box3.php:293 
+#: ../elementor/widgets/bacola-banner-box4.php:308 
+#: ../elementor/widgets/bacola-banner-box5.php:267 
+#: ../elementor/widgets/bacola-category-banner.php:258 
+#: ../elementor/widgets/bacola-category-banner2.php:270 
+#: ../elementor/widgets/bacola-deal-carousel.php:272 
+#: ../elementor/widgets/bacola-hero-banner.php:183 
+#: ../elementor/widgets/bacola-home-slider.php:371 
+#: ../elementor/widgets/bacola-product-carousel.php:251 
+#: ../elementor/widgets/bacola-product-grid.php:197 
+#: ../elementor/widgets/bacola-product-grid2.php:380 
+#: ../elementor/widgets/bacola-special-products.php:307 
+#: ../elementor/widgets/bacola-text-banner.php:452
+msgid "Subtitle Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:262 
+#: ../elementor/widgets/bacola-banner-box2.php:297 
+#: ../elementor/widgets/bacola-banner-box3.php:303 
+#: ../elementor/widgets/bacola-banner-box4.php:317 
+#: ../elementor/widgets/bacola-banner-box5.php:276 
+#: ../elementor/widgets/bacola-category-banner.php:276 
+#: ../elementor/widgets/bacola-category-banner2.php:288 
+#: ../elementor/widgets/bacola-deal-carousel.php:290 
+#: ../elementor/widgets/bacola-hero-banner.php:201 
+#: ../elementor/widgets/bacola-home-slider.php:380 
+#: ../elementor/widgets/bacola-product-carousel.php:269 
+#: ../elementor/widgets/bacola-product-grid.php:215 
+#: ../elementor/widgets/bacola-product-grid2.php:398 
+#: ../elementor/widgets/bacola-special-products.php:325 
+#: ../elementor/widgets/bacola-text-banner.php:472
+msgid "Subtitle Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:338 
+#: ../elementor/widgets/bacola-banner-box4.php:393 
+#: ../elementor/widgets/bacola-home-slider.php:456
+msgid "SECOND SUBTITLE"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:346 
+#: ../elementor/widgets/bacola-banner-box4.php:401 
+#: ../elementor/widgets/bacola-home-slider.php:464
+msgid "Second Subtitle Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:355 
+#: ../elementor/widgets/bacola-banner-box4.php:410 
+#: ../elementor/widgets/bacola-home-slider.php:473
+msgid "Second Subtitle Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:431 
+#: ../elementor/widgets/bacola-banner-box4.php:546 
+#: ../elementor/widgets/bacola-home-slider.php:651
+msgid "PRICE TEXT"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:439 
+#: ../elementor/widgets/bacola-banner-box4.php:554 
+#: ../elementor/widgets/bacola-home-slider.php:659
+msgid "Price Text Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:448 
+#: ../elementor/widgets/bacola-banner-box4.php:564 
+#: ../elementor/widgets/bacola-home-slider.php:668
+msgid "Price Text Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:524 
+#: ../elementor/widgets/bacola-banner-box4.php:640 
+#: ../elementor/widgets/bacola-home-slider.php:744
+msgid "PRICE"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:532 
+#: ../elementor/widgets/bacola-banner-box4.php:648 
+#: ../elementor/widgets/bacola-home-slider.php:752 ../inc/customizer.php:978
+msgid "Price Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:541 
+#: ../elementor/widgets/bacola-banner-box4.php:657 
+#: ../elementor/widgets/bacola-home-slider.php:761
+msgid "Price Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:613 
+#: ../elementor/widgets/bacola-banner-box2.php:380 
+#: ../elementor/widgets/bacola-banner-box3.php:483 
+#: ../elementor/widgets/bacola-banner-box4.php:729 
+#: ../elementor/widgets/bacola-banner-box5.php:358 
+#: ../elementor/widgets/bacola-category-banner.php:357 
+#: ../elementor/widgets/bacola-category-banner2.php:369 
+#: ../elementor/widgets/bacola-deal-carousel.php:372 
+#: ../elementor/widgets/bacola-home-slider.php:812 
+#: ../elementor/widgets/bacola-product-carousel.php:351 
+#: ../elementor/widgets/bacola-product-grid.php:297 
+#: ../elementor/widgets/bacola-product-grid2.php:480
+msgid " Button Style"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box.php:716 
+#: ../elementor/widgets/bacola-banner-box2.php:107 
+#: ../elementor/widgets/bacola-banner-box2.php:483 
+#: ../elementor/widgets/bacola-banner-box3.php:586 
+#: ../elementor/widgets/bacola-banner-box4.php:803 
+#: ../elementor/widgets/bacola-banner-box5.php:453 
+#: ../elementor/widgets/bacola-category-banner.php:470 
+#: ../elementor/widgets/bacola-category-banner2.php:481 
+#: ../elementor/widgets/bacola-deal-carousel.php:484 
+#: ../elementor/widgets/bacola-home-slider.php:886 
+#: ../elementor/widgets/bacola-product-carousel.php:463 
+#: ../elementor/widgets/bacola-product-carousel.php:497 
+#: ../elementor/widgets/bacola-product-grid.php:409 
+#: ../elementor/widgets/bacola-product-grid2.php:592 
+#: ../elementor/widgets/bacola-text-banner.php:122
+msgid "Background Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box2.php:118 
+#: ../elementor/widgets/bacola-category-banner.php:504 
+#: ../elementor/widgets/bacola-category-banner2.php:515 
+#: ../elementor/widgets/bacola-deal-carousel.php:518 
+#: ../elementor/widgets/bacola-product-grid.php:443 
+#: ../elementor/widgets/bacola-product-grid2.php:626 
+#: ../elementor/widgets/bacola-text-banner.php:134
+msgid "Background Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box2.php:129 
+#: ../elementor/widgets/bacola-testimonial.php:622
+msgid "IMAGE"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:39 
+#: ../elementor/widgets/bacola-banner-box3.php:113 
+#: ../elementor/widgets/bacola-banner-box4.php:127 
+#: ../elementor/widgets/bacola-banner-box5.php:87 
+#: ../elementor/widgets/bacola-home-slider.php:39 ../inc/customizer.php:1737 
+#: ../inc/customizer.php:3772
+msgid "Type 3"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:76 
+#: ../elementor/widgets/bacola-icon-box.php:77 
+#: ../elementor/widgets/bacola-icon-list.php:70 
+#: ../elementor/widgets/bacola-product-grid2.php:240 
+#: ../inc/customizer.php:2123 ../inc/customizer.php:2182 
+#: ../inc/customizer.php:2980
+msgid "Description"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:124
+msgid "Style"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:138 
+#: ../elementor/widgets/bacola-banner-box4.php:164 
+#: ../elementor/widgets/bacola-banner-box5.php:123 
+#: ../elementor/widgets/bacola-special-products.php:466 
+#: ../elementor/widgets/bacola-testimonial.php:651
+msgid "Width"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:159 
+#: ../elementor/widgets/bacola-banner-box4.php:185 
+#: ../elementor/widgets/bacola-banner-box5.php:144 
+#: ../elementor/widgets/bacola-special-products.php:445 
+#: ../elementor/widgets/bacola-testimonial.php:630
+msgid "Height"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:206 
+#: ../elementor/widgets/bacola-home-slider.php:287 
+#: ../elementor/widgets/bacola-icon-box.php:229 
+#: ../elementor/widgets/bacola-text-banner.php:184
+msgid "Title Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:384 
+#: ../elementor/widgets/bacola-icon-box.php:306 
+#: ../elementor/widgets/bacola-icon-list.php:170
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:392 
+#: ../elementor/widgets/bacola-icon-box.php:314 
+#: ../elementor/widgets/bacola-icon-list.php:178
+msgid "Description Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box3.php:401
+msgid "Description Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:46 
+#: ../elementor/widgets/bacola-banner-box5.php:46 
+#: ../elementor/widgets/bacola-home-slider.php:125
+msgid "Enter item title here."
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:56 
+#: ../elementor/widgets/bacola-banner-box4.php:66 
+#: ../elementor/widgets/bacola-banner-box5.php:56 
+#: ../elementor/widgets/bacola-home-slider.php:135 
+#: ../elementor/widgets/bacola-home-slider.php:145
+msgid "Enter item subtitle here."
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:72
+msgid "Offer"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:76 
+#: ../elementor/widgets/bacola-home-slider.php:155
+msgid "Add an offer for the item."
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:486 
+#: ../elementor/widgets/bacola-home-slider.php:549
+msgid "OFFER"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:494 
+#: ../elementor/widgets/bacola-home-slider.php:557
+msgid "Offer Background Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:503 
+#: ../elementor/widgets/bacola-home-slider.php:566
+msgid "Offer Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box4.php:512 
+#: ../elementor/widgets/bacola-home-slider.php:575
+msgid "Offer Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-banner-box5.php:89
+msgid "Type 5"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner.php:81 
+#: ../elementor/widgets/bacola-category-banner2.php:83 
+#: ../inc/customizer.php:1274
+msgid "Banner"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner.php:98 
+#: ../elementor/widgets/bacola-category-banner2.php:100
+msgid "Banner Title"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner.php:108 
+#: ../elementor/widgets/bacola-category-banner2.php:110
+msgid "Banner Subtitle"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner.php:165 
+#: ../elementor/widgets/bacola-category-banner2.php:177 
+#: ../elementor/widgets/bacola-deal-carousel.php:161 
+#: ../elementor/widgets/bacola-hero-banner.php:90 
+#: ../elementor/widgets/bacola-icon-box.php:220 
+#: ../elementor/widgets/bacola-product-carousel.php:158 
+#: ../elementor/widgets/bacola-product-grid.php:104 
+#: ../elementor/widgets/bacola-product-grid2.php:287 
+#: ../elementor/widgets/bacola-product-list.php:175 
+#: ../elementor/widgets/bacola-special-products.php:196 
+#: ../elementor/widgets/bacola-testimonial.php:129 
+#: ../elementor/widgets/bacola-text-banner.php:175
+msgid "Title Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner.php:267 
+#: ../elementor/widgets/bacola-category-banner2.php:279 
+#: ../elementor/widgets/bacola-deal-carousel.php:281 
+#: ../elementor/widgets/bacola-hero-banner.php:192 
+#: ../elementor/widgets/bacola-product-carousel.php:260 
+#: ../elementor/widgets/bacola-product-grid.php:206 
+#: ../elementor/widgets/bacola-product-grid2.php:389 
+#: ../elementor/widgets/bacola-special-products.php:316 
+#: ../elementor/widgets/bacola-text-banner.php:462
+msgid "Subtitle Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner.php:575
+msgid "Shop All"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner2.php:120
+msgid "Banner Second Subtitle"
+msgstr ""
+
+#: ../elementor/widgets/bacola-category-banner2.php:130
+msgid "Banner Slogan"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:25
+msgid "Form Data"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:32
+msgid "Select Form"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:46
+msgid "Set a title."
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:55
+msgid "Set a text."
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:64
+msgid "Form Style"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:93 
+#: ../elementor/widgets/bacola-contact-form-7.php:186
+msgid "Form Max Width"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:106 
+#: ../elementor/widgets/bacola-contact-form-7.php:199
+msgid "Input Height"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:157
+msgid "Focus"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:180
+msgid "Form Button Style"
+msgstr ""
+
+#: ../elementor/widgets/bacola-contact-form-7.php:268
+msgid "Please Select a Form"
+msgstr ""
+
+#: ../elementor/widgets/bacola-counter-product.php:224
+msgid "Deals of the"
+msgstr ""
+
+#: ../elementor/widgets/bacola-counter-product.php:224
+msgid "week!"
+msgstr ""
+
+#: ../elementor/widgets/bacola-counter-product.php:235 
+#: ../elementor/widgets/bacola-deal-carousel.php:660 
+#: ../woocommerce-filter/woocommerce-filter.php:546
+msgid "Remains until the end of the offer"
+msgstr ""
+
+#: ../elementor/widgets/bacola-counter-product.php:277
+msgid "Ratings"
+msgstr ""
+
+#: ../elementor/widgets/bacola-counter-product.php:284
+msgid "Available :"
+msgstr ""
+
+#: ../elementor/widgets/bacola-deal-carousel.php:170 
+#: ../elementor/widgets/bacola-special-products.php:205 
+#: ../elementor/widgets/bacola-text-banner.php:196
+msgid "Second Title Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-deal-carousel.php:179 
+#: ../elementor/widgets/bacola-special-products.php:214 
+#: ../elementor/widgets/bacola-text-banner.php:206
+msgid "Second Title Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:32
+msgid "Slider Type"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:46 
+#: ../elementor/widgets/bacola-product-carousel.php:72 
+#: ../elementor/widgets/bacola-product-categories.php:139
+msgid "Auto Play"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:57 
+#: ../elementor/widgets/bacola-product-carousel.php:83 
+#: ../elementor/widgets/bacola-product-categories.php:151
+msgid "Auto Speed"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:61 
+#: ../elementor/widgets/bacola-product-carousel.php:87 
+#: ../elementor/widgets/bacola-product-categories.php:155
+msgid "Set auto speed."
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:68 
+#: ../elementor/widgets/bacola-product-carousel.php:94 
+#: ../elementor/widgets/bacola-product-categories.php:162
+msgid "Dots"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:79 
+#: ../elementor/widgets/bacola-product-carousel.php:105 
+#: ../elementor/widgets/bacola-product-categories.php:174
+msgid "Arrows"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:90 
+#: ../elementor/widgets/bacola-product-carousel.php:116 
+#: ../elementor/widgets/bacola-product-categories.php:186
+msgid "Slide Speed"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:94 
+#: ../elementor/widgets/bacola-product-carousel.php:120 
+#: ../elementor/widgets/bacola-product-categories.php:190
+msgid "Set slide speed."
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:100
+msgid "Equal Height"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:121
+msgid "Item Title"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:131
+msgid "Item Subtitle"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:141
+msgid "Item Second Subtitle"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:151
+msgid "Item Offer"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:161
+msgid "Item Price Text"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:171
+msgid "Item Price"
+msgstr ""
+
+#: ../elementor/widgets/bacola-home-slider.php:199
+msgid "Slide Items"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:33 
+#: ../elementor/widgets/bacola-icon-list.php:35
+msgid "Use Custom Icon"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:45 
+#: ../elementor/widgets/bacola-icon-list.php:47 ../inc/customizer.php:1558 
+#: ../inc/customizer.php:2816 ../inc/customizer.php:3249
+msgid "Icon"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:58 
+#: ../elementor/widgets/bacola-icon-list.php:60
+msgid "Custom Icon"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:71 
+#: ../elementor/widgets/bacola-testimonial.php:35
+msgid "Enter title here"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:79 
+#: ../elementor/widgets/bacola-icon-list.php:72 
+#: ../elementor/widgets/bacola-testimonial.php:84
+msgid "Enter desc here"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:86
+msgid "Box Link"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:106 
+#: ../elementor/widgets/bacola-icon-list.php:114
+msgid "ICON"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:113 
+#: ../elementor/widgets/bacola-icon-list.php:121
+msgid "Icon Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:185 
+#: ../elementor/widgets/bacola-icon-list.php:131
+msgid "Icon Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:194 
+#: ../elementor/widgets/bacola-icon-list.php:140
+msgid "Icon Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-box.php:323 
+#: ../elementor/widgets/bacola-icon-list.php:187
+msgid "Description Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-icon-list.php:79
+msgid "Icon Items"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:57
+msgid "Category"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:68
+msgid "Specific Post(s)"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:107
+msgid "Disable Pagination"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:118
+msgid "Image Width"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:122
+msgid "Set the product image width."
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:128
+msgid "Image Height"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:132
+msgid "Set the product image height."
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:207
+msgid "comments"
+msgstr ""
+
+#: ../elementor/widgets/bacola-latest-blog.php:213
+msgid "by"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-categories.php:33
+msgid "Type"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-categories.php:46 
+#: ../elementor/widgets/bacola-product-categories.php:51
+msgid "Exclude Category"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-categories.php:64 
+#: ../elementor/widgets/bacola-product-categories.php:69
+msgid "Include Category"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-categories.php:95 
+#: ../elementor/widgets/bacola-product-categories.php:113 
+#: ../elementor/widgets/bacola-product-categories.php:131
+msgid "7 Columns"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-categories.php:103
+msgid "Tablet Column"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-categories.php:270 
+#: ../elementor/widgets/bacola-product-categories.php:304 
+#: ../elementor/widgets/bacola-product-categories.php:320
+msgid "Items"
+msgstr ""
+
+#: ../elementor/widgets/bacola-product-grid2.php:250
+msgid "Image Link"
+msgstr ""
+
+#: ../elementor/widgets/bacola-special-products.php:401
+msgid "DUA DATE"
+msgstr ""
+
+#: ../elementor/widgets/bacola-special-products.php:409
+msgid "Due Date Background Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-special-products.php:418
+msgid "Due Date Background Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-special-products.php:427
+msgid "Due Date Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-special-products.php:436
+msgid "Due Date Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:53
+msgid "Name"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:56
+msgid "Enter the name here"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:63
+msgid "Position"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:66
+msgid "Enter the customer job."
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:73 
+#: ../elementor/widgets/bacola-testimonial.php:214
+msgid "Comment Title"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:75
+msgid "Enter the comment title."
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:82
+msgid "Comment"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:222
+msgid "Comment Title Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:231
+msgid "Comment Title Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:316
+msgid "COMMENT"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:324
+msgid "Comment Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:333
+msgid "Comment Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:418
+msgid "NAME"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:426
+msgid "Name Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:435
+msgid "Name Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:520
+msgid "POSITION"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:528
+msgid "Position Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-testimonial.php:537
+msgid "Position Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-text-banner.php:55
+msgid "Coupon Code"
+msgstr ""
+
+#: ../elementor/widgets/bacola-text-banner.php:216
+msgid "Second Title Size"
+msgstr ""
+
+#: ../elementor/widgets/bacola-text-banner.php:291
+msgid "COUPON"
+msgstr ""
+
+#: ../elementor/widgets/bacola-text-banner.php:333
+msgid "Coupon Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-text-banner.php:343
+msgid "Coupon Hover Color"
+msgstr ""
+
+#: ../elementor/widgets/bacola-vendor-grid.php:32
+msgid "Display Item count"
+msgstr ""
+
+#: ../inc/breadcrumb.php:29
+msgid "Our Blog"
+msgstr ""
+
+#: ../inc/breadcrumb.php:30 ../inc/breadcrumb.php:32 
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:72
+msgid "Home"
+msgstr ""
+
+#: ../inc/breadcrumb.php:76
+msgid "Category : "
+msgstr ""
+
+#: ../inc/breadcrumb.php:78
+msgid "Tag : "
+msgstr ""
+
+#: ../inc/breadcrumb.php:91
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/breadcrumb.php:93 ../inc/customizer.php:1550 
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:89
+msgid "Search"
+msgstr ""
+
+#: ../inc/customizer.php:29 ../inc/customizer.php:1257
+msgid "Shop Settings"
+msgstr ""
+
+#: ../inc/customizer.php:30
+msgid "You can customize the shop settings."
+msgstr ""
+
+#: ../inc/customizer.php:34
+msgid "Blog Settings"
+msgstr ""
+
+#: ../inc/customizer.php:35
+msgid "You can customize the blog settings."
+msgstr ""
+
+#: ../inc/customizer.php:39 ../inc/customizer.php:120
+msgid "Header Settings"
+msgstr ""
+
+#: ../inc/customizer.php:40
+msgid "You can customize the header settings."
+msgstr ""
+
+#: ../inc/customizer.php:44 ../inc/customizer.php:2533
+msgid "Main Color"
+msgstr ""
+
+#: ../inc/customizer.php:45 ../inc/customizer.php:2534
+msgid "You can customize the main color."
+msgstr ""
+
+#: ../inc/customizer.php:49
+msgid "Elementor Templates"
+msgstr ""
+
+#: ../inc/customizer.php:50
+msgid "You can customize the elementor templates."
+msgstr ""
+
+#: ../inc/customizer.php:54
+msgid "Map Settings"
+msgstr ""
+
+#: ../inc/customizer.php:55
+msgid "You can customize the map settings."
+msgstr ""
+
+#: ../inc/customizer.php:59 ../inc/customizer.php:2835
+msgid "Footer Settings"
+msgstr ""
+
+#: ../inc/customizer.php:60 ../inc/customizer.php:2858 
+#: ../inc/customizer.php:2863
+msgid "You can customize the footer settings."
+msgstr ""
+
+#: ../inc/customizer.php:64 ../inc/customizer.php:2778
+msgid "Bacola Widgets"
+msgstr ""
+
+#: ../inc/customizer.php:65 ../inc/customizer.php:2779
+msgid "You can customize the bacola widgets."
+msgstr ""
+
+#: ../inc/customizer.php:69
+msgid "GDPR Settings"
+msgstr ""
+
+#: ../inc/customizer.php:70
+msgid "You can customize the GDPR settings."
+msgstr ""
+
+#: ../inc/customizer.php:74
+msgid "Newsletter Settings"
+msgstr ""
+
+#: ../inc/customizer.php:75
+msgid "You can customize the Newsletter Popup settings."
+msgstr ""
+
+#: ../inc/customizer.php:79
+msgid "Maintenance Settings"
+msgstr ""
+
+#: ../inc/customizer.php:80
+msgid "You can customize the Maintenance settings."
+msgstr ""
+
+#: ../inc/customizer.php:121
+msgid "You can customize the header from this panel."
+msgstr ""
+
+#: ../inc/customizer.php:127 ../inc/customizer.php:192
+msgid "Logo"
+msgstr ""
+
+#: ../inc/customizer.php:128
+msgid "You can customize the logo which is on header.."
+msgstr ""
+
+#: ../inc/customizer.php:132
+msgid "Header General"
+msgstr ""
+
+#: ../inc/customizer.php:133
+msgid "You can customize the header."
+msgstr ""
+
+#: ../inc/customizer.php:137
+msgid "Preloader"
+msgstr ""
+
+#: ../inc/customizer.php:138
+msgid "You can customize the loader."
+msgstr ""
+
+#: ../inc/customizer.php:142
+msgid "Header Style"
+msgstr ""
+
+#: ../inc/customizer.php:143
+msgid "You can customize the color."
+msgstr ""
+
+#: ../inc/customizer.php:147
+msgid "Location Style"
+msgstr ""
+
+#: ../inc/customizer.php:148 ../inc/customizer.php:153 
+#: ../inc/customizer.php:158 ../inc/customizer.php:163 
+#: ../inc/customizer.php:168
+msgid "You can customize the style."
+msgstr ""
+
+#: ../inc/customizer.php:152
+msgid "Search Style"
+msgstr ""
+
+#: ../inc/customizer.php:162
+msgid "Sidebar Menu Style"
+msgstr ""
+
+#: ../inc/customizer.php:167
+msgid "Mobile Sidebar Menu Style"
+msgstr ""
+
+#: ../inc/customizer.php:193
+msgid "You can upload a logo."
+msgstr ""
+
+#: ../inc/customizer.php:206
+msgid "Mobile Logo"
+msgstr ""
+
+#: ../inc/customizer.php:207
+msgid "You can upload a logo for the mobile."
+msgstr ""
+
+#: ../inc/customizer.php:220
+msgid "Set Logo Description"
+msgstr ""
+
+#: ../inc/customizer.php:221
+msgid "You can set logo description."
+msgstr ""
+
+#: ../inc/customizer.php:232
+msgid "Set Logo Text"
+msgstr ""
+
+#: ../inc/customizer.php:233
+msgid "You can set logo as text."
+msgstr ""
+
+#: ../inc/customizer.php:244
+msgid "Logo Size"
+msgstr ""
+
+#: ../inc/customizer.php:245
+msgid "You can set size of the logo."
+msgstr ""
+
+#: ../inc/customizer.php:268
+msgid "Mobile Logo Size"
+msgstr ""
+
+#: ../inc/customizer.php:269
+msgid "You can set size of the mobil logo."
+msgstr ""
+
+#: ../inc/customizer.php:292
+msgid "Sidebar Logo Size"
+msgstr ""
+
+#: ../inc/customizer.php:293
+msgid "You can set size of the sidebar logo."
+msgstr ""
+
+#: ../inc/customizer.php:315
+msgid "Header Type"
+msgstr ""
+
+#: ../inc/customizer.php:331
+msgid "Middle Sticky Header"
+msgstr ""
+
+#: ../inc/customizer.php:332 ../inc/customizer.php:344
+msgid "You can choose status of the header on the mobile."
+msgstr ""
+
+#: ../inc/customizer.php:343
+msgid "Mobile Sticky Header"
+msgstr ""
+
+#: ../inc/customizer.php:355
+msgid "Location Filter"
+msgstr ""
+
+#: ../inc/customizer.php:356
+msgid "You can choose status of the location filter on the header."
+msgstr ""
+
+#: ../inc/customizer.php:367
+msgid "Popup Location Filter"
+msgstr ""
+
+#: ../inc/customizer.php:368
+msgid "Enable popup location."
+msgstr ""
+
+#: ../inc/customizer.php:386
+msgid "Header Search"
+msgstr ""
+
+#: ../inc/customizer.php:387
+msgid "You can choose status of the search on the header."
+msgstr ""
+
+#: ../inc/customizer.php:398
+msgid "Ajax Search Form"
+msgstr ""
+
+#: ../inc/customizer.php:399
+msgid "Enable ajax search form for the header search."
+msgstr ""
+
+#: ../inc/customizer.php:417
+msgid "Header Cart"
+msgstr ""
+
+#: ../inc/customizer.php:418
+msgid "You can choose status of the mini cart on the header."
+msgstr ""
+
+#: ../inc/customizer.php:429
+msgid "Mini Cart Type"
+msgstr ""
+
+#: ../inc/customizer.php:434
+msgid "Side Cart"
+msgstr ""
+
+#: ../inc/customizer.php:435 ../inc/customizer.php:1367 
+#: ../inc/customizer.php:1549 ../inc/customizer.php:2291
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer.php:452
+msgid "Mini Cart Notice"
+msgstr ""
+
+#: ../inc/customizer.php:453
+msgid "You can add a text for the mini cart."
+msgstr ""
+
+#: ../inc/customizer.php:471
+msgid "Account Icon / Login"
+msgstr ""
+
+#: ../inc/customizer.php:472
+msgid "Disable or Enable User Login/Signup on the header."
+msgstr ""
+
+#: ../inc/customizer.php:483
+msgid "Sidebar Menu"
+msgstr ""
+
+#: ../inc/customizer.php:484
+msgid "Disable or Enable Sidebar Menu"
+msgstr ""
+
+#: ../inc/customizer.php:495
+msgid "Disable Collapse on Frontpage"
+msgstr ""
+
+#: ../inc/customizer.php:496
+msgid "Disable or Enable Sidebar Collapse on Home Page."
+msgstr ""
+
+#: ../inc/customizer.php:514
+msgid "Top Header Notice"
+msgstr ""
+
+#: ../inc/customizer.php:515
+msgid "Disable or Enable the top header notice."
+msgstr ""
+
+#: ../inc/customizer.php:526
+msgid "Header Top Notice Text"
+msgstr ""
+
+#: ../inc/customizer.php:527
+msgid "You can add a text for the top header notice."
+msgstr ""
+
+#: ../inc/customizer.php:545
+msgid "Top Header"
+msgstr ""
+
+#: ../inc/customizer.php:546
+msgid "Disable or Enable the top header."
+msgstr ""
+
+#: ../inc/customizer.php:557
+msgid "Top Header Text Icon"
+msgstr ""
+
+#: ../inc/customizer.php:558
+msgid "You can set an icon. for example: secure"
+msgstr ""
+
+#: ../inc/customizer.php:576
+msgid "Top Header Text"
+msgstr ""
+
+#: ../inc/customizer.php:577
+msgid "You can add a text for the top bar text."
+msgstr ""
+
+#: ../inc/customizer.php:595
+msgid "Top Header Content Text"
+msgstr ""
+
+#: ../inc/customizer.php:596
+msgid "You can add a content text for the top bar."
+msgstr ""
+
+#: ../inc/customizer.php:614
+msgid "Enable Loader"
+msgstr ""
+
+#: ../inc/customizer.php:615
+msgid "Disable or Enable the loader."
+msgstr ""
+
+#: ../inc/customizer.php:627
+msgid "Top Header Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:628 ../inc/customizer.php:664 
+#: ../inc/customizer.php:762 ../inc/customizer.php:895 
+#: ../inc/customizer.php:943 ../inc/customizer.php:991 
+#: ../inc/customizer.php:1027 ../inc/customizer.php:3047 
+#: ../inc/customizer.php:3350 ../inc/customizer.php:3386
+msgid "You can set a color for  background."
+msgstr ""
+
+#: ../inc/customizer.php:639
+msgid "Top Header Color"
+msgstr ""
+
+#: ../inc/customizer.php:640 ../inc/customizer.php:810 
+#: ../inc/customizer.php:834 ../inc/customizer.php:858 
+#: ../inc/customizer.php:3059 ../inc/customizer.php:3071 
+#: ../inc/customizer.php:3362 ../inc/customizer.php:3374 
+#: ../inc/customizer.php:3398 ../inc/customizer.php:3410 
+#: ../inc/customizer.php:3422 ../inc/customizer.php:3434 
+#: ../inc/customizer.php:3446 ../inc/customizer.php:3458 
+#: ../inc/customizer.php:3482 ../inc/customizer.php:3494 
+#: ../inc/customizer.php:3506 ../inc/customizer.php:3518 
+#: ../inc/customizer.php:3530 ../inc/customizer.php:3542 
+#: ../inc/customizer.php:3579
+msgid "You can set a color for  color."
+msgstr ""
+
+#: ../inc/customizer.php:651
+msgid "Top Header Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:652 ../inc/customizer.php:700 
+#: ../inc/customizer.php:822 ../inc/customizer.php:846
+msgid "You can set a color for hover color."
+msgstr ""
+
+#: ../inc/customizer.php:663
+msgid "Header Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:675
+msgid "Header Color"
+msgstr ""
+
+#: ../inc/customizer.php:676 ../inc/customizer.php:3567
+msgid "You can set a font color."
+msgstr ""
+
+#: ../inc/customizer.php:687
+msgid "Header Font Background Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:688
+msgid "You can set a font background."
+msgstr ""
+
+#: ../inc/customizer.php:699
+msgid "Header Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:710
+msgid "Top Header Typography"
+msgstr ""
+
+#: ../inc/customizer.php:735
+msgid "Header Typography"
+msgstr ""
+
+#: ../inc/customizer.php:761
+msgid "Location Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:773
+msgid "Location Background Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:774
+msgid "You can set a color for hover background."
+msgstr ""
+
+#: ../inc/customizer.php:785
+msgid "Location Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:786
+msgid "You can set a color for  Border."
+msgstr ""
+
+#: ../inc/customizer.php:797
+msgid "Location Border Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:798
+msgid "You can set a color for hover  Border."
+msgstr ""
+
+#: ../inc/customizer.php:809
+msgid " Location Color"
+msgstr ""
+
+#: ../inc/customizer.php:821
+msgid " Location Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:833
+msgid " Location Second Color"
+msgstr ""
+
+#: ../inc/customizer.php:845
+msgid " Location Second Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:857
+msgid " Location Arrow Color"
+msgstr ""
+
+#: ../inc/customizer.php:868
+msgid "Location Typography"
+msgstr ""
+
+#: ../inc/customizer.php:894
+msgid "Search Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:906
+msgid "Search Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:907 ../inc/customizer.php:919 
+#: ../inc/customizer.php:931 ../inc/customizer.php:1039 
+#: ../inc/customizer.php:1063 ../inc/customizer.php:1075 
+#: ../inc/customizer.php:1099 ../inc/customizer.php:1111 
+#: ../inc/customizer.php:1148 ../inc/customizer.php:1160 
+#: ../inc/customizer.php:1199 ../inc/customizer.php:1211 
+#: ../inc/customizer.php:1223 ../inc/customizer.php:1247
+msgid "You can set a font-color."
+msgstr ""
+
+#: ../inc/customizer.php:918
+msgid "Search Color"
+msgstr ""
+
+#: ../inc/customizer.php:930
+msgid "Search Icon Color"
+msgstr ""
+
+#: ../inc/customizer.php:942
+msgid "Login Button Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:954
+msgid "Login Button Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:955 ../inc/customizer.php:1003
+msgid "You can set a color for  border color."
+msgstr ""
+
+#: ../inc/customizer.php:966
+msgid "Login Button Icon Color"
+msgstr ""
+
+#: ../inc/customizer.php:967 ../inc/customizer.php:1015
+msgid "You can set a color for icon color."
+msgstr ""
+
+#: ../inc/customizer.php:979
+msgid "You can set a color for price color."
+msgstr ""
+
+#: ../inc/customizer.php:990
+msgid "Cart Icon Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:1002
+msgid "Cart Icon Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:1014
+msgid "Cart Icon Color"
+msgstr ""
+
+#: ../inc/customizer.php:1026
+msgid "Cart Count Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:1038
+msgid "Cart Count Color"
+msgstr ""
+
+#: ../inc/customizer.php:1050
+msgid "Sidebar Title Background"
+msgstr ""
+
+#: ../inc/customizer.php:1051 ../inc/customizer.php:1087 
+#: ../inc/customizer.php:1124 ../inc/customizer.php:3470 
+#: ../inc/customizer.php:3555
+msgid "You can set a color for background."
+msgstr ""
+
+#: ../inc/customizer.php:1062
+msgid "Sidebar Title Color"
+msgstr ""
+
+#: ../inc/customizer.php:1074
+msgid "Main Title Arrow Color"
+msgstr ""
+
+#: ../inc/customizer.php:1086
+msgid "Second Main Title Background"
+msgstr ""
+
+#: ../inc/customizer.php:1098
+msgid "Second Main Title Color"
+msgstr ""
+
+#: ../inc/customizer.php:1110
+msgid "Second Main Title Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:1123
+msgid "Sidebar Menu Background"
+msgstr ""
+
+#: ../inc/customizer.php:1135
+msgid "Sidebar Menu Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:1136 ../inc/customizer.php:1235
+msgid "You can set a color for border color."
+msgstr ""
+
+#: ../inc/customizer.php:1147
+msgid "Sidebar Menu Color"
+msgstr ""
+
+#: ../inc/customizer.php:1159
+msgid "Sidebar Menu Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:1170
+msgid "Sidebar Menu Typography"
+msgstr ""
+
+#: ../inc/customizer.php:1198
+msgid "Mobile Sidebar Menu Header Color"
+msgstr ""
+
+#: ../inc/customizer.php:1210
+msgid "Mobile Sidebar Menu Color"
+msgstr ""
+
+#: ../inc/customizer.php:1222
+msgid "Mobile Sidebar Menu Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:1234
+msgid "Mobile Sidebar Menu Border Color"
+msgstr ""
+
+#: ../inc/customizer.php:1246
+msgid "Mobile Sidebar Menu Copyright Color"
+msgstr ""
+
+#: ../inc/customizer.php:1258
+msgid "You can customize the shop from this panel."
+msgstr ""
+
+#: ../inc/customizer.php:1264
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer.php:1265
+msgid "You can customize shop settings."
+msgstr ""
+
+#: ../inc/customizer.php:1269
+msgid "Product Detail"
+msgstr ""
+
+#: ../inc/customizer.php:1270
+msgid "You can customize the product single settings."
+msgstr ""
+
+#: ../inc/customizer.php:1275
+msgid "You can customize the banner."
+msgstr ""
+
+#: ../inc/customizer.php:1279
+msgid "Mobile Bottom Menu Style "
+msgstr ""
+
+#: ../inc/customizer.php:1280
+msgid "You can customize the mobile menu."
+msgstr ""
+
+#: ../inc/customizer.php:1284
+msgid "My Account"
+msgstr ""
+
+#: ../inc/customizer.php:1285
+msgid "You can customize the my account page."
+msgstr ""
+
+#: ../inc/customizer.php:1289
+msgid "Free Shipping Bar "
+msgstr ""
+
+#: ../inc/customizer.php:1290
+msgid "You can customize the free shipping bar settings."
+msgstr ""
+
+#: ../inc/customizer.php:1314 ../inc/customizer.php:2286 
+#: ../inc/customizer.php:2515
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer.php:1315
+msgid "You can choose a layout for the shop."
+msgstr ""
+
+#: ../inc/customizer.php:1319 ../inc/customizer.php:2520
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:1320 ../inc/customizer.php:1764 
+#: ../inc/customizer.php:2521
+msgid "Full Width"
+msgstr ""
+
+#: ../inc/customizer.php:1321 ../inc/customizer.php:2522
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:1331
+msgid "Shop Page Width"
+msgstr ""
+
+#: ../inc/customizer.php:1332
+msgid "You can choose a layout for the shop page."
+msgstr ""
+
+#: ../inc/customizer.php:1336
+msgid "Boxed"
+msgstr ""
+
+#: ../inc/customizer.php:1337
+msgid "Wide"
+msgstr ""
+
+#: ../inc/customizer.php:1346
+msgid "Shop Product Box Type"
+msgstr ""
+
+#: ../inc/customizer.php:1362
+msgid "Pagination Type"
+msgstr ""
+
+#: ../inc/customizer.php:1368 ../woocommerce-filter/load-more/load-more.php:11
+msgid "Load More"
+msgstr ""
+
+#: ../inc/customizer.php:1369
+msgid "Infinite"
+msgstr ""
+
+#: ../inc/customizer.php:1379
+msgid "Quantity Box"
+msgstr ""
+
+#: ../inc/customizer.php:1380
+msgid "Disable or Enable quantity box for the product box."
+msgstr ""
+
+#: ../inc/customizer.php:1391
+msgid "Ajax on Shop Page"
+msgstr ""
+
+#: ../inc/customizer.php:1392
+msgid "Disable or Enable Ajax for the shop page."
+msgstr ""
+
+#: ../inc/customizer.php:1403
+msgid "Grid List View"
+msgstr ""
+
+#: ../inc/customizer.php:1404
+msgid "Disable or Enable grid list view on shop page."
+msgstr ""
+
+#: ../inc/customizer.php:1415
+msgid "Perpage View"
+msgstr ""
+
+#: ../inc/customizer.php:1416
+msgid "Disable or Enable perpage view on shop page."
+msgstr ""
+
+#: ../inc/customizer.php:1427
+msgid "Attribute Swatches"
+msgstr ""
+
+#: ../inc/customizer.php:1428
+msgid "Disable or Enable the attribute types (Color - Button - Images)."
+msgstr ""
+
+#: ../inc/customizer.php:1439
+msgid "Quick View Button"
+msgstr ""
+
+#: ../inc/customizer.php:1440
+msgid "You can choose status of the quick view button."
+msgstr ""
+
+#: ../inc/customizer.php:1451
+msgid "Custom Wishlist Button"
+msgstr ""
+
+#: ../inc/customizer.php:1452
+msgid "You can choose status of the wishlist button."
+msgstr ""
+
+#: ../inc/customizer.php:1463
+msgid "Added to Cart Ajax Notice"
+msgstr ""
+
+#: ../inc/customizer.php:1464
+msgid "You can choose status of the ajax notice feature."
+msgstr ""
+
+#: ../inc/customizer.php:1475
+msgid "Product Badge Tab"
+msgstr ""
+
+#: ../inc/customizer.php:1476
+msgid "You can choose status of the product badge tab."
+msgstr ""
+
+#: ../inc/customizer.php:1487
+msgid "Remove All Button in cart page"
+msgstr ""
+
+#: ../inc/customizer.php:1488
+msgid "You can choose status of the remove all button."
+msgstr ""
+
+#: ../inc/customizer.php:1499
+msgid "Mobile Bottom Menu"
+msgstr ""
+
+#: ../inc/customizer.php:1500
+msgid "Disable or Enable the bottom menu on mobile."
+msgstr ""
+
+#: ../inc/customizer.php:1511 ../inc/customizer.php:1532
+msgid "Mobile Bottom Menu Edit"
+msgstr ""
+
+#: ../inc/customizer.php:1512 ../inc/customizer.php:1533
+msgid "Edit the mobile bottom menu."
+msgstr ""
+
+#: ../inc/customizer.php:1546
+msgid "You can select a type"
+msgstr ""
+
+#: ../inc/customizer.php:1551 
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:81
+msgid "Filter"
+msgstr ""
+
+#: ../inc/customizer.php:1552
+msgid "category"
+msgstr ""
+
+#: ../inc/customizer.php:1559
+msgid "You can set an icon. for example; \"store\""
+msgstr ""
+
+#: ../inc/customizer.php:1563
+msgid " Text"
+msgstr ""
+
+#: ../inc/customizer.php:1564 ../inc/customizer.php:2055 
+#: ../inc/customizer.php:3088
+msgid "You can enter a text."
+msgstr ""
+
+#: ../inc/customizer.php:1568 ../inc/customizer.php:2822 
+#: ../inc/customizer.php:3224 ../inc/customizer.php:3255
+msgid "URL"
+msgstr ""
+
+#: ../inc/customizer.php:1569 ../inc/customizer.php:2823 
+#: ../inc/customizer.php:3256
+msgid "You can set url for the item."
+msgstr ""
+
+#: ../inc/customizer.php:1581
+msgid "Stock Quantity"
+msgstr ""
+
+#: ../inc/customizer.php:1582
+msgid "Show stock quantity on the label."
+msgstr ""
+
+#: ../inc/customizer.php:1593
+msgid "Min/Max Quantity"
+msgstr ""
+
+#: ../inc/customizer.php:1594
+msgid "Enable the additional quantity setting fields in product detail page."
+msgstr ""
+
+#: ../inc/customizer.php:1605
+msgid "Category Desc After Content"
+msgstr ""
+
+#: ../inc/customizer.php:1606
+msgid "Add the category description after the products."
+msgstr ""
+
+#: ../inc/customizer.php:1617
+msgid "Catalog Mode"
+msgstr ""
+
+#: ../inc/customizer.php:1618
+msgid "Disable Add to Cart button on the shop page."
+msgstr ""
+
+#: ../inc/customizer.php:1629 
+#: ../woocommerce-filter/recently-viewed/recently-viewed.php:65
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: ../inc/customizer.php:1630
+msgid "Disable or Enable Recently Viewed Products."
+msgstr ""
+
+#: ../inc/customizer.php:1641
+msgid "Recently Viewed Products Column"
+msgstr ""
+
+#: ../inc/customizer.php:1646
+msgid "6"
+msgstr ""
+
+#: ../inc/customizer.php:1647
+msgid "5"
+msgstr ""
+
+#: ../inc/customizer.php:1648
+msgid "4"
+msgstr ""
+
+#: ../inc/customizer.php:1649
+msgid "3"
+msgstr ""
+
+#: ../inc/customizer.php:1650
+msgid "2"
+msgstr ""
+
+#: ../inc/customizer.php:1667
+msgid "Min Order Amount"
+msgstr ""
+
+#: ../inc/customizer.php:1668
+msgid "Enable Min Order Amount."
+msgstr ""
+
+#: ../inc/customizer.php:1679
+msgid "Min Order Value"
+msgstr ""
+
+#: ../inc/customizer.php:1680
+msgid "Set amount to specify a minimum order value."
+msgstr ""
+
+#: ../inc/customizer.php:1698
+msgid "Product Image Size"
+msgstr ""
+
+#: ../inc/customizer.php:1699
+msgid "You can set size of the product image for the shop page."
+msgstr ""
+
+#: ../inc/customizer.php:1713
+msgid "Image Column"
+msgstr ""
+
+#: ../inc/customizer.php:1730
+msgid "Type (Product Detail)"
+msgstr ""
+
+#: ../inc/customizer.php:1748
+msgid "Gallery Type (Product Detail)"
+msgstr ""
+
+#: ../inc/customizer.php:1753
+msgid "Horizontal"
+msgstr ""
+
+#: ../inc/customizer.php:1754
+msgid "Vertical"
+msgstr ""
+
+#: ../inc/customizer.php:1765
+msgid "Stretch the single product page content."
+msgstr ""
+
+#: ../inc/customizer.php:1776
+msgid "Image Zoom"
+msgstr ""
+
+#: ../inc/customizer.php:1777
+msgid "You can choose status of the zoom feature."
+msgstr ""
+
+#: ../inc/customizer.php:1788
+msgid "Product360 View"
+msgstr ""
+
+#: ../inc/customizer.php:1789
+msgid "Disable or Enable Product 360 View."
+msgstr ""
+
+#: ../inc/customizer.php:1800
+msgid "Compare"
+msgstr ""
+
+#: ../inc/customizer.php:1801
+msgid "You can choose status of the compare button."
+msgstr ""
+
+#: ../inc/customizer.php:1812
+msgid "Ajax Add to Cart"
+msgstr ""
+
+#: ../inc/customizer.php:1813
+msgid "Disable or Enable ajax add to cart button."
+msgstr ""
+
+#: ../inc/customizer.php:1824
+msgid "Sticky Add to Cart"
+msgstr ""
+
+#: ../inc/customizer.php:1825
+msgid "Disable or Enable the sticky add to cart section."
+msgstr ""
+
+#: ../inc/customizer.php:1836
+msgid "Sticky Titles"
+msgstr ""
+
+#: ../inc/customizer.php:1837
+msgid "Disable or Enable the sticky titles for desktop."
+msgstr ""
+
+#: ../inc/customizer.php:1848
+msgid "Mobile Sticky Add to Cart"
+msgstr ""
+
+#: ../inc/customizer.php:1849
+msgid "Disable or Enable sticky cart button on mobile."
+msgstr ""
+
+#: ../inc/customizer.php:1860
+msgid "Buy Now Button"
+msgstr ""
+
+#: ../inc/customizer.php:1861
+msgid "Disable or Enable Buy Now button."
+msgstr ""
+
+#: ../inc/customizer.php:1872
+msgid "Products Navigation"
+msgstr ""
+
+#: ../inc/customizer.php:1883
+msgid "Related Products with Tags"
+msgstr ""
+
+#: ../inc/customizer.php:1884
+msgid "Display the related products by tags."
+msgstr ""
+
+#: ../inc/customizer.php:1895
+msgid "Stock Progress Bar"
+msgstr ""
+
+#: ../inc/customizer.php:1896
+msgid "Display the stock progress bar if stock management is enabled."
+msgstr ""
+
+#: ../inc/customizer.php:1907
+msgid "Time Countdown"
+msgstr ""
+
+#: ../inc/customizer.php:1908
+msgid "Display the sale time countdown."
+msgstr ""
+
+#: ../inc/customizer.php:1919 ../woocommerce-filter/woocommerce-filter.php:419
+msgid "Order on WhatsApp"
+msgstr ""
+
+#: ../inc/customizer.php:1920
+msgid "Enable the button on the product detail page."
+msgstr ""
+
+#: ../inc/customizer.php:1931
+msgid "WhatsApp Number"
+msgstr ""
+
+#: ../inc/customizer.php:1932
+msgid "You can add a phone number for order on WhatsApp."
+msgstr ""
+
+#: ../inc/customizer.php:1950
+msgid "Move Review Tab"
+msgstr ""
+
+#: ../inc/customizer.php:1951
+msgid "Move the review tab out of tabs"
+msgstr ""
+
+#: ../inc/customizer.php:1962
+msgid "Social Share (Product Detail)"
+msgstr ""
+
+#: ../inc/customizer.php:1963
+msgid "Disable or Enable social share buttons."
+msgstr ""
+
+#: ../inc/customizer.php:1978
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/customizer.php:1979
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/customizer.php:1980
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/customizer.php:1981
+msgid "Linkedin"
+msgstr ""
+
+#: ../inc/customizer.php:1982
+msgid "Reddit"
+msgstr ""
+
+#: ../inc/customizer.php:1983
+msgid "Whatsapp"
+msgstr ""
+
+#: ../inc/customizer.php:2001 ../inc/customizer.php:2032
+msgid "Featured List"
+msgstr ""
+
+#: ../inc/customizer.php:2002
+msgid "Disable or Enable the featured list."
+msgstr ""
+
+#: ../inc/customizer.php:2013 ../inc/customizer.php:2099 
+#: ../inc/customizer.php:2170
+msgid "Set Title"
+msgstr ""
+
+#: ../inc/customizer.php:2014 ../inc/customizer.php:2100 
+#: ../inc/customizer.php:2171 ../inc/customizer.php:3137 
+#: ../inc/customizer.php:3175
+msgid "You can set a title."
+msgstr ""
+
+#: ../inc/customizer.php:2033
+msgid "You can create the featured list."
+msgstr ""
+
+#: ../inc/customizer.php:2049 ../inc/customizer.php:3093
+msgid "Featured Icon"
+msgstr ""
+
+#: ../inc/customizer.php:2050
+msgid "Icon example; klbth-icon-dollar."
+msgstr ""
+
+#: ../inc/customizer.php:2054 ../inc/customizer.php:3087
+msgid "Featured Content"
+msgstr ""
+
+#: ../inc/customizer.php:2066
+msgid "Related Post Column"
+msgstr ""
+
+#: ../inc/customizer.php:2067
+msgid "You can control related post column with this option."
+msgstr ""
+
+#: ../inc/customizer.php:2086 ../inc/customizer.php:2165 
+#: ../inc/customizer.php:3000 ../inc/customizer.php:3219 
+#: ../inc/customizer.php:3281 ../inc/customizer.php:3680 
+#: ../inc/customizer.php:3790 ../inc/customizer.php:3978
+msgid "You can upload an image."
+msgstr ""
+
+#: ../inc/customizer.php:2111 ../inc/customizer.php:2176
+msgid "Set Subtitle"
+msgstr ""
+
+#: ../inc/customizer.php:2112 ../inc/customizer.php:2177 
+#: ../inc/customizer.php:3156 ../inc/customizer.php:3194
+msgid "You can set a subtitle."
+msgstr ""
+
+#: ../inc/customizer.php:2124 ../inc/customizer.php:2183
+msgid "Add a description."
+msgstr ""
+
+#: ../inc/customizer.php:2135 ../inc/customizer.php:2188
+msgid "Set URL"
+msgstr ""
+
+#: ../inc/customizer.php:2136 ../inc/customizer.php:2189
+msgid "Set an url for the button"
+msgstr ""
+
+#: ../inc/customizer.php:2149
+msgid "Banner For Categories"
+msgstr ""
+
+#: ../inc/customizer.php:2150
+msgid "You can set banner for each category."
+msgstr ""
+
+#: ../inc/customizer.php:2156 ../inc/customizer.php:2709
+msgid "Select Category"
+msgstr ""
+
+#: ../inc/customizer.php:2157 ../inc/customizer.php:2710
+msgid "Set a category"
+msgstr ""
+
+#: ../inc/customizer.php:2202
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:2203
+msgid "You can set a Background."
+msgstr ""
+
+#: ../inc/customizer.php:2214
+msgid "Mobile Menu Icon Color"
+msgstr ""
+
+#: ../inc/customizer.php:2215 ../inc/customizer.php:2227 
+#: ../inc/customizer.php:2239 ../inc/customizer.php:2251
+msgid "You can set a color."
+msgstr ""
+
+#: ../inc/customizer.php:2226
+msgid "Mobile Menu Icon Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:2238
+msgid "Mobile Menu Font Color"
+msgstr ""
+
+#: ../inc/customizer.php:2250
+msgid "Mobile Menu Font Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:2261
+msgid "Mobile Menu Font Style"
+msgstr ""
+
+#: ../inc/customizer.php:2287
+msgid "You can choose a layout for the login form."
+msgstr ""
+
+#: ../inc/customizer.php:2292
+msgid "Login Tab"
+msgstr ""
+
+#: ../inc/customizer.php:2302
+msgid "Register - First Name"
+msgstr ""
+
+#: ../inc/customizer.php:2306 ../inc/customizer.php:2322 
+#: ../inc/customizer.php:2338 ../inc/customizer.php:2354
+msgid "Hidden"
+msgstr ""
+
+#: ../inc/customizer.php:2307 ../inc/customizer.php:2323 
+#: ../inc/customizer.php:2339 ../inc/customizer.php:2355
+msgid "Visible"
+msgstr ""
+
+#: ../inc/customizer.php:2308 ../inc/customizer.php:2324 
+#: ../inc/customizer.php:2340 ../inc/customizer.php:2356
+msgid "Optional"
+msgstr ""
+
+#: ../inc/customizer.php:2318
+msgid "Register - Last Name"
+msgstr ""
+
+#: ../inc/customizer.php:2334
+msgid "Register - Billing Company"
+msgstr ""
+
+#: ../inc/customizer.php:2350
+msgid "Register - Billing Phone"
+msgstr ""
+
+#: ../inc/customizer.php:2366
+msgid "Activate Ajax for Login Form"
+msgstr ""
+
+#: ../inc/customizer.php:2377
+msgid "Redirect URL After Login"
+msgstr ""
+
+#: ../inc/customizer.php:2391
+msgid "Free shipping bar"
+msgstr ""
+
+#: ../inc/customizer.php:2402
+msgid "Goal Amount"
+msgstr ""
+
+#: ../inc/customizer.php:2403
+#, php-format
+msgid ""
+"Amount to reach 100% defined in your currency absolute value. For example: "
+"300"
+msgstr ""
+
+#: ../inc/customizer.php:2421
+msgid "Cart page"
+msgstr ""
+
+#: ../inc/customizer.php:2439
+msgid "Mini cart"
+msgstr ""
+
+#: ../inc/customizer.php:2457
+msgid "Checkout page"
+msgstr ""
+
+#: ../inc/customizer.php:2475
+msgid "Initial Message"
+msgstr ""
+
+#: ../inc/customizer.php:2476
+msgid ""
+"Message to show before reaching the goal. Use shortcode [remainder] to "
+"display the amount left to reach the minimum."
+msgstr ""
+
+#: ../inc/customizer.php:2494
+msgid "Success message"
+msgstr ""
+
+#: ../inc/customizer.php:2495
+msgid "Message to show after reaching 100%."
+msgstr ""
+
+#: ../inc/customizer.php:2516
+msgid "You can choose a layout."
+msgstr ""
+
+#: ../inc/customizer.php:2545
+msgid "Second Color"
+msgstr ""
+
+#: ../inc/customizer.php:2546
+msgid "You can customize the secondary color."
+msgstr ""
+
+#: ../inc/customizer.php:2557
+msgid "Price Font Color"
+msgstr ""
+
+#: ../inc/customizer.php:2558
+msgid "You can customize the price font color."
+msgstr ""
+
+#: ../inc/customizer.php:2569
+msgid "Color Danger"
+msgstr ""
+
+#: ../inc/customizer.php:2570
+msgid "You can customize the color danger."
+msgstr ""
+
+#: ../inc/customizer.php:2581
+msgid "Color Danger Dark"
+msgstr ""
+
+#: ../inc/customizer.php:2582
+msgid "You can customize the color danger dark."
+msgstr ""
+
+#: ../inc/customizer.php:2593
+msgid "Color Success"
+msgstr ""
+
+#: ../inc/customizer.php:2594
+msgid "You can customize the color success."
+msgstr ""
+
+#: ../inc/customizer.php:2605
+msgid "Color Rating"
+msgstr ""
+
+#: ../inc/customizer.php:2606
+msgid "You can customize the color rating."
+msgstr ""
+
+#: ../inc/customizer.php:2617 ../inc/customizer.php:2718
+msgid "Before Shop Elementor Template"
+msgstr ""
+
+#: ../inc/customizer.php:2620 ../inc/customizer.php:2634 
+#: ../inc/customizer.php:2662
+msgid "Select a template from elementor templates "
+msgstr ""
+
+#: ../inc/customizer.php:2631 ../inc/customizer.php:2726
+msgid "After Shop Elementor Template"
+msgstr ""
+
+#: ../inc/customizer.php:2645 ../inc/customizer.php:2732
+msgid "Before Header Elementor Template"
+msgstr ""
+
+#: ../inc/customizer.php:2648 ../inc/customizer.php:2676 
+#: ../inc/customizer.php:2690 ../inc/customizer.php:2721
+msgid ""
+"Select a template from elementor templates, If you want to show any content "
+"before products "
+msgstr ""
+
+#: ../inc/customizer.php:2659 ../inc/customizer.php:2738
+msgid "After Header Elementor Template"
+msgstr ""
+
+#: ../inc/customizer.php:2673 ../inc/customizer.php:2744
+msgid "Before Footer Elementor Template"
+msgstr ""
+
+#: ../inc/customizer.php:2687
+msgid "After Footer Elementor Templates"
+msgstr ""
+
+#: ../inc/customizer.php:2702
+msgid "Template For Categories"
+msgstr ""
+
+#: ../inc/customizer.php:2703
+msgid "You can set template for each category."
+msgstr ""
+
+#: ../inc/customizer.php:2750
+msgid "After Footer Elementor Template"
+msgstr ""
+
+#: ../inc/customizer.php:2766
+msgid "Google Map Api key"
+msgstr ""
+
+#: ../inc/customizer.php:2767
+msgid "Add your google map api key"
+msgstr ""
+
+#: ../inc/customizer.php:2786 ../inc/customizer.php:3243
+msgid "Social List"
+msgstr ""
+
+#: ../inc/customizer.php:2787
+msgid "You can customize the social list widget."
+msgstr ""
+
+#: ../inc/customizer.php:2810
+msgid "Social List Widget"
+msgstr ""
+
+#: ../inc/customizer.php:2811 ../inc/customizer.php:3244
+msgid "You can set social icons."
+msgstr ""
+
+#: ../inc/customizer.php:2817 ../inc/customizer.php:3250
+msgid "You can set an icon. for example; \"facebook\""
+msgstr ""
+
+#: ../inc/customizer.php:2836
+msgid "You can customize the footer from this panel."
+msgstr ""
+
+#: ../inc/customizer.php:2842
+msgid "Subscribe"
+msgstr ""
+
+#: ../inc/customizer.php:2843
+msgid "You can customize the subscribe area."
+msgstr ""
+
+#: ../inc/customizer.php:2847 ../inc/customizer.php:3081
+msgid "Featured Box"
+msgstr ""
+
+#: ../inc/customizer.php:2848
+msgid "You can customize the featured box section."
+msgstr ""
+
+#: ../inc/customizer.php:2852
+msgid "Contact Details"
+msgstr ""
+
+#: ../inc/customizer.php:2853
+msgid "You can customize the contact details section."
+msgstr ""
+
+#: ../inc/customizer.php:2857
+msgid "Footer General"
+msgstr ""
+
+#: ../inc/customizer.php:2862
+msgid "Footer Style"
+msgstr ""
+
+#: ../inc/customizer.php:2888
+msgid "Subcribe"
+msgstr ""
+
+#: ../inc/customizer.php:2889
+msgid "Disable or Enable subscribe section."
+msgstr ""
+
+#: ../inc/customizer.php:2900
+msgid "Select Plugin"
+msgstr ""
+
+#: ../inc/customizer.php:2901
+msgid "You can choose a plugin for the subscribe form."
+msgstr ""
+
+#: ../inc/customizer.php:2905
+msgid "Mailchimp"
+msgstr ""
+
+#: ../inc/customizer.php:2906
+msgid "Mailpoet"
+msgstr ""
+
+#: ../inc/customizer.php:2923
+msgid "Subscribe Form Id."
+msgstr ""
+
+#: ../inc/customizer.php:2924 ../inc/customizer.php:3856 
+#: ../inc/customizer.php:3959
+msgid "You can find the form id in Dashboard > Mailchimp For Wp > Form."
+msgstr ""
+
+#: ../inc/customizer.php:2943 ../inc/customizer.php:2962 
+#: ../inc/customizer.php:2981
+msgid "You can set text for subscribe section."
+msgstr ""
+
+#: ../inc/customizer.php:3020
+msgid "Subscribe Typography"
+msgstr ""
+
+#: ../inc/customizer.php:3046
+msgid "Subscribe Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3058
+msgid "Subscribe  Color"
+msgstr ""
+
+#: ../inc/customizer.php:3070
+msgid "Subscribe Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3082
+msgid "You can create featured box."
+msgstr ""
+
+#: ../inc/customizer.php:3094
+msgid "set an icon."
+msgstr ""
+
+#: ../inc/customizer.php:3105
+msgid "Contact Section"
+msgstr ""
+
+#: ../inc/customizer.php:3106
+msgid "Disable or Enable the contact section."
+msgstr ""
+
+#: ../inc/customizer.php:3117
+msgid "Phone Icon"
+msgstr ""
+
+#: ../inc/customizer.php:3118
+msgid "You can set an icon."
+msgstr ""
+
+#: ../inc/customizer.php:3136
+msgid "Phone Title"
+msgstr ""
+
+#: ../inc/customizer.php:3155
+msgid "Phone Subtitle"
+msgstr ""
+
+#: ../inc/customizer.php:3174
+msgid "APP Title"
+msgstr ""
+
+#: ../inc/customizer.php:3193
+msgid "APP Subtitle"
+msgstr ""
+
+#: ../inc/customizer.php:3212
+msgid "APP IMAGE"
+msgstr ""
+
+#: ../inc/customizer.php:3213
+msgid "You can set the app images."
+msgstr ""
+
+#: ../inc/customizer.php:3225
+msgid "set an url for the image."
+msgstr ""
+
+#: ../inc/customizer.php:3268
+msgid "Copyright"
+msgstr ""
+
+#: ../inc/customizer.php:3269
+msgid "You can set a copyright text for the footer."
+msgstr ""
+
+#: ../inc/customizer.php:3294
+msgid "Set Payment URL"
+msgstr ""
+
+#: ../inc/customizer.php:3295
+msgid "Set an url for the payment image"
+msgstr ""
+
+#: ../inc/customizer.php:3306
+msgid "Footer Column"
+msgstr ""
+
+#: ../inc/customizer.php:3307
+msgid "You can set footer column."
+msgstr ""
+
+#: ../inc/customizer.php:3324
+msgid "Footer Menu"
+msgstr ""
+
+#: ../inc/customizer.php:3325
+msgid "You can choose status of the footer menu on the footer."
+msgstr ""
+
+#: ../inc/customizer.php:3336
+msgid "Back To Top Button"
+msgstr ""
+
+#: ../inc/customizer.php:3349
+msgid "Footer Featured Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3361
+msgid "Footer Featured Color"
+msgstr ""
+
+#: ../inc/customizer.php:3373
+msgid "Footer Featured Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3385
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3397
+msgid "Footer Header Color"
+msgstr ""
+
+#: ../inc/customizer.php:3409
+msgid "Footer Header Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3421
+msgid "Footer Color"
+msgstr ""
+
+#: ../inc/customizer.php:3433
+msgid "Footer Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3445
+msgid "Footer Phone Icon Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3457
+msgid "Footer Phone Icon Color"
+msgstr ""
+
+#: ../inc/customizer.php:3469
+msgid "Footer Contact Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3481
+msgid "Footer Contact Color"
+msgstr ""
+
+#: ../inc/customizer.php:3493
+msgid "Footer Contact Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3505
+msgid "Footer Contact Second Color"
+msgstr ""
+
+#: ../inc/customizer.php:3517
+msgid "Footer Contact Second Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3529
+msgid "Footer Social Icon Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3541
+msgid "Footer Social Icon Color"
+msgstr ""
+
+#: ../inc/customizer.php:3554
+msgid "Footer General Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:3566
+msgid "Footer General Color"
+msgstr ""
+
+#: ../inc/customizer.php:3578
+msgid "Footer General Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:3589
+msgid "Footer Typography"
+msgstr ""
+
+#: ../inc/customizer.php:3615
+msgid "Footer Featured Typography"
+msgstr ""
+
+#: ../inc/customizer.php:3641
+msgid "Footer Contact Typography"
+msgstr ""
+
+#: ../inc/customizer.php:3667
+msgid "Enable GDPR"
+msgstr ""
+
+#: ../inc/customizer.php:3668
+msgid "You can choose status of GDPR."
+msgstr ""
+
+#: ../inc/customizer.php:3700
+msgid "GDPR Text"
+msgstr ""
+
+#: ../inc/customizer.php:3718
+msgid "GDPR Expire Date"
+msgstr ""
+
+#: ../inc/customizer.php:3736
+msgid "GDPR Button Text"
+msgstr ""
+
+#: ../inc/customizer.php:3754
+msgid "Enable Newsletter"
+msgstr ""
+
+#: ../inc/customizer.php:3755
+msgid "You can choose status of Newsletter Popup."
+msgstr ""
+
+#: ../inc/customizer.php:3766
+msgid "Newsletter Type"
+msgstr ""
+
+#: ../inc/customizer.php:3819
+msgid "Newsletter Title"
+msgstr ""
+
+#: ../inc/customizer.php:3837
+msgid "Newsletter Subtitle"
+msgstr ""
+
+#: ../inc/customizer.php:3855
+msgid "Newsletter Form Id."
+msgstr ""
+
+#: ../inc/customizer.php:3874
+msgid "Newsletter Expire Date"
+msgstr ""
+
+#: ../inc/customizer.php:3892
+msgid "Enable Maintenance Mode"
+msgstr ""
+
+#: ../inc/customizer.php:3893
+msgid "You can choose status of Maintenance."
+msgstr ""
+
+#: ../inc/customizer.php:3922
+msgid "Second Title"
+msgstr ""
+
+#: ../inc/customizer.php:3958
+msgid "Mailchimp Form Id."
+msgstr ""
+
+#: ../inc/customizer.php:3977
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/icon-picker/icon-picker.php:29
+msgid "Icon Field"
+msgstr ""
+
+#: ../inc/icon-picker/icon-picker.php:33
+msgid "Search icon..."
+msgstr ""
+
+#: ../inc/maintenance/maintenance.php:35 ../inc/maintenance/maintenance.php:37
+msgid "maintenance"
+msgstr ""
+
+#: ../inc/menu-endpoints/menu-endpoints.php:7
+msgid "Bacola endpoints"
+msgstr ""
+
+#: ../inc/menu-endpoints/menu-endpoints.php:19 
+#: ../inc/menu-endpoints/mega-menu/mega-menu.php:26
+msgid "Elementor Template"
+msgstr ""
+
+#: ../inc/menu-endpoints/menu-endpoints.php:31
+msgid "Select all"
+msgstr ""
+
+#: ../inc/menu-endpoints/menu-endpoints.php:34
+msgid "Add to menu"
+msgstr ""
+
+#: ../newsletter-popup/newsletter1/newsletter.php:54 
+#: ../newsletter-popup/newsletter2/newsletter.php:60 
+#: ../newsletter-popup/newsletter3/newsletter.php:47
+msgid "Don't show this popup again."
+msgstr ""
+
+#: ../taxonomy/location_taxonomy.php:98
+msgid "Choose your Delivery Location"
+msgstr ""
+
+#: ../taxonomy/location_taxonomy.php:99
+msgid "Enter your address and we will specify the offer for your area."
+msgstr ""
+
+#: ../taxonomy/location_taxonomy.php:104
+msgid "Search your area"
+msgstr ""
+
+#: ../taxonomy/location_taxonomy.php:105
+msgid "Clear All"
+msgstr ""
+
+#: ../taxonomy/location_taxonomy.php:105
+msgid "Select a Location"
+msgstr ""
+
+#: ../widgets/widget-popular-posts.php:7
+msgid "Display the popular posts"
+msgstr ""
+
+#: ../widgets/widget-popular-posts.php:9
+msgid "Bacola Popular Posts"
+msgstr ""
+
+#: ../widgets/widget-popular-posts.php:85 ../widgets/widget-social-list.php:64 
+#: ../woocommerce-filter/widgets/product-categories/widget-product-categories.php:194
+#:  ../woocommerce-filter/widgets/product-status/widget-product-status.php:85
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/widget-popular-posts.php:90
+msgid "Number of items to show:"
+msgstr ""
+
+#: ../widgets/widget-social-list.php:7
+msgid "Only Detail Page: Social List."
+msgstr ""
+
+#: ../widgets/widget-social-list.php:9
+msgid "Bacola Social list"
+msgstr ""
+
+#: ../widgets/widget-social-list.php:69
+msgid ""
+"You can customize the social list from Dashboard > Appearance > Customize > "
+"Bacola Widgets > Social List"
+msgstr ""
+
+#: ../woocommerce-filter/woocommerce-filter.php:219
+msgid "Clear filters"
+msgstr ""
+
+#: ../woocommerce-filter/woocommerce-filter.php:245 
+#: ../woocommerce-filter/widgets/product-status/widget-product-status.php:48
+msgid "In Stock"
+msgstr ""
+
+#: ../woocommerce-filter/woocommerce-filter.php:249 
+#: ../woocommerce-filter/widgets/product-status/widget-product-status.php:55
+msgid "On Sale"
+msgstr ""
+
+#: ../woocommerce-filter/woocommerce-filter.php:505
+msgid "Sold:"
+msgstr ""
+
+#: ../woocommerce-filter/woocommerce-filter.php:506
+msgid "Available:"
+msgstr ""
+
+#: ../woocommerce-filter/ajax-login/ajax-login.php:44 
+#: ../woocommerce-filter/ajax-login/ajax-login.php:48 
+#: ../woocommerce-filter/ajax-login/ajax-login.php:121
+msgid "Error:"
+msgstr ""
+
+#: ../woocommerce-filter/ajax-login/ajax-login.php:48
+msgid "Username is required."
+msgstr ""
+
+#: ../woocommerce-filter/ajax-login/ajax-login.php:133
+msgid ""
+"Your account was created successfully and a password has been sent to your "
+"email address."
+msgstr ""
+
+#: ../woocommerce-filter/ajax-login/ajax-login.php:135
+msgid ""
+"Your account was created successfully. Your login details have been sent to "
+"your email address."
+msgstr ""
+
+#: ../woocommerce-filter/ajax-search/ajax-search.php:77
+msgid "See all products..."
+msgstr ""
+
+#: ../woocommerce-filter/ajax-search/ajax-search.php:84
+#, php-format
+msgid "No results found for \"%s\""
+msgstr ""
+
+#: ../woocommerce-filter/back-to-top/back-to-top.php:21
+msgid "Scroll to top button"
+msgstr ""
+
+#: ../woocommerce-filter/buy-now/buy-now.php:7
+msgid "Buy Now"
+msgstr ""
+
+#: ../woocommerce-filter/grid-list/grid-list-view.php:72
+msgid "Filter Products"
+msgstr ""
+
+#: ../woocommerce-filter/grid-list/grid-list-view.php:86
+msgid "Show"
+msgstr ""
+
+#: ../woocommerce-filter/load-more/load-more.php:52 
+#: ../woocommerce-filter/load-more/load-more.php:98
+msgid "No More Products"
+msgstr ""
+
+#: ../woocommerce-filter/min-amount/min-amount.php:19
+#, php-format
+msgid ""
+"Your current order total is %s - you must have an order with a minimum of %s "
+"to place your order "
+msgstr ""
+
+#: ../woocommerce-filter/min-amount/min-amount.php:28
+#, php-format
+msgid ""
+"Your current order total is %s - you must have an order with a minimum of %s "
+"to place your order"
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:21
+msgid "Quantity Settings"
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:23
+msgid "Enable this to show and enable the additional quantity setting fields."
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:30
+msgid "Minimum Quantity"
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:33
+msgid "Set a minimum allowed quantity limit (a number greater than 0)."
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:38
+msgid "Maximum Quantity"
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:41
+msgid "Set the maximum allowed quantity limit (a number greater than 0)."
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:46
+msgid "Quantity Step"
+msgstr ""
+
+#: ../woocommerce-filter/minmax-quantity/minmax-quantity.php:49
+msgid "Optional. Set quantity step (a number greater than 0)."
+msgstr ""
+
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:67
+msgid "Store"
+msgstr ""
+
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:97
+msgid "Wishlist"
+msgstr ""
+
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:105
+msgid "Account"
+msgstr ""
+
+#: ../woocommerce-filter/mobile-filter/mobile-filter.php:115
+msgid "Categories"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:15
+msgid "Badge"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:29
+msgid "Badge Text"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:31
+msgid "Badge Text."
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:36
+msgid "Badge Type"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:38
+msgid "Choose a badge type."
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:40 
+#: ../woocommerce-filter/product-badge/product-badge.php:64
+msgid "Style 1"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:41 
+#: ../woocommerce-filter/product-badge/product-badge.php:65
+msgid "Style 2"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:42 
+#: ../woocommerce-filter/product-badge/product-badge.php:66
+msgid "Style 3"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:48
+msgid "Badge BG Color"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:54
+msgid "Badge Text Color"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:60
+msgid "Percentage Type"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:62
+msgid "If the product is on sale."
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:72
+msgid "Percentage BG Color"
+msgstr ""
+
+#: ../woocommerce-filter/product-badge/product-badge.php:78
+msgid "Percentage Text Color"
+msgstr ""
+
+#: ../woocommerce-filter/product-data/product-data-video.php:15
+msgid "Video"
+msgstr ""
+
+#: ../woocommerce-filter/product-data/product-data-video.php:28
+msgid "Video URL"
+msgstr ""
+
+#: ../woocommerce-filter/product-data/product-data-video.php:31
+msgid "Enter a youtube or a vimeo video url for the single product."
+msgstr ""
+
+#: ../woocommerce-filter/product-data/product-data-video.php:62
+msgid "Watch video"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:27
+msgid "Product 360 View"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:70 
+#: ../woocommerce-filter/product360/product360.php:90
+msgid "Delete image"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:70 
+#: ../woocommerce-filter/product360/product360.php:90
+msgid "Delete"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:90
+msgid "Add Images to Product 360 view Gallery"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:90
+msgid "Add to gallery"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:90
+msgid "Add product 360 view gallery images"
+msgstr ""
+
+#: ../woocommerce-filter/product360/product360.php:161
+msgid "360 product view"
+msgstr ""
+
+#: ../woocommerce-filter/recently-viewed/recently-viewed.php:78
+msgid "No products found"
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:10
+msgid "First Name"
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:17
+msgid "Last Name"
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:24 
+#: ../woocommerce-filter/registration-fields/registration-fields.php:103
+msgid "Company Name"
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:30 
+#: ../woocommerce-filter/registration-fields/registration-fields.php:109
+msgid "Phone"
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:55
+msgid "Please enter a valid first name."
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:59
+msgid "Please enter a valid last name."
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:62 
+#: ../woocommerce-filter/registration-fields/registration-fields.php:146
+msgid "Please enter a valid company name."
+msgstr ""
+
+#: ../woocommerce-filter/registration-fields/registration-fields.php:66 
+#: ../woocommerce-filter/registration-fields/registration-fields.php:150
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: ../woocommerce-filter/remove-all/remove-all.php:27
+msgid "Remove All"
+msgstr ""
+
+#: ../woocommerce-filter/side-cart/side-cart.php:18
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../woocommerce-filter/sticky-single-cart/sticky-single-cart.php:46
+msgid "Select options"
+msgstr ""
+
+#: ../woocommerce-filter/swatches/swatches.php:64
+msgid "Permissions check failed"
+msgstr ""
+
+#: ../woocommerce-filter/swatches/swatches.php:133
+msgid "Upload/Add image"
+msgstr ""
+
+#: ../woocommerce-filter/swatches/swatches.php:134
+msgid "Remove image"
+msgstr ""
+
+#: ../woocommerce-filter/swatches/swatches.php:210
+msgid "Value"
+msgstr ""
+
+#: ../woocommerce-filter/swatches/swatches.php:269
+msgid "Choose"
+msgstr ""
+
+#: ../woocommerce-filter/swatches/swatches.php:276
+msgid "Clear"
+msgstr ""
+
+#: ../woocommerce-filter/widgets/product-categories/widget-product-categories.php:8
+msgid "For Main Shop Page."
+msgstr ""
+
+#: ../woocommerce-filter/widgets/product-categories/widget-product-categories.php:10
+msgid "Bacola Product Categories"
+msgstr ""
+
+#: ../woocommerce-filter/widgets/product-categories/widget-product-categories.php:199
+msgid "Exclude id:"
+msgstr ""
+
+#: ../woocommerce-filter/widgets/product-status/widget-product-status.php:7
+msgid "For Product Archive Page."
+msgstr ""
+
+#: ../woocommerce-filter/widgets/product-status/widget-product-status.php:9
+msgid "Bacola Product Status"
+msgstr ""

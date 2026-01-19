@@ -1,4 +1,3 @@
-cat > setup-woo-enterprise-complete.sh <<'COMPLETE_SCRIPT'
 #!/bin/bash
 #########################################################################
 # WooCommerce Enterprise Platform - Complete Setup Script

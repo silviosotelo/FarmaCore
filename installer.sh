@@ -67,7 +67,7 @@ handle_error() {
     local line_number=$2
     error "Error en línea $line_number (código: $exit_code)"
     log "Stack trace en línea $line_number"
-    
+
     echo ""
     echo -e "${RED}╔════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${RED}║                   ERROR DETECTADO                          ║${NC}"
@@ -188,20 +188,20 @@ install_nginx() {
     header
     echo -e "${BOLD}Instalando Nginx...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de Nginx"
-    
+
     # Actualizar repos
     info "Actualizando repositorios..."
     apt-get update -qq || { error "Fallo al actualizar repos"; return 1; }
-    
+
     # Instalar Nginx
     info "Instalando paquete nginx..."
     apt-get install -y nginx || { error "Fallo al instalar nginx"; return 1; }
-    
+
     # Configuración básica
     info "Configurando nginx..."
-    
+
     # Crear archivo de performance (SIN duplicados)
     cat > /etc/nginx/conf.d/woo-performance.conf <<'EOF'
 client_max_body_size 64M;
@@ -212,7 +212,7 @@ fastcgi_read_timeout 300;
 keepalive_timeout 65;
 server_tokens off;
 EOF
-    
+
     # Verificar configuración
     if nginx -t 2>&1 | tee -a "$LOG_FILE"; then
         success "Configuración de Nginx válida"
@@ -220,11 +220,11 @@ EOF
         error "Error en configuración de Nginx"
         return 1
     fi
-    
+
     # Iniciar servicio
     systemctl enable nginx
     systemctl restart nginx
-    
+
     if systemctl is-active --quiet nginx; then
         success "Nginx instalado y corriendo"
         log "Nginx instalado exitosamente"
@@ -239,17 +239,17 @@ install_php() {
     header
     echo -e "${BOLD}Instalando PHP 8.2...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de PHP 8.2"
-    
+
     # Agregar repositorio
     info "Agregando repositorio PHP..."
     add-apt-repository ppa:ondrej/php -y || { error "Fallo al agregar repo PHP"; return 1; }
     apt-get update -qq
-    
+
     # Instalar PHP y extensiones
     info "Instalando PHP 8.2 y extensiones (esto puede tardar)..."
-    
+
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
         php8.2-fpm \
         php8.2-mysql \
@@ -264,28 +264,28 @@ install_php() {
         php8.2-bcmath \
         php8.2-redis \
         php8.2-imagick || { error "Fallo al instalar PHP"; return 1; }
-    
+
     # Configurar php.ini
     info "Optimizando PHP..."
     local php_ini="/etc/php/8.2/fpm/php.ini"
-    
+
     sed -i 's/upload_max_filesize = .*/upload_max_filesize = 64M/' "$php_ini"
     sed -i 's/post_max_size = .*/post_max_size = 64M/' "$php_ini"
     sed -i 's/memory_limit = .*/memory_limit = 256M/' "$php_ini"
     sed -i 's/max_execution_time = .*/max_execution_time = 300/' "$php_ini"
     sed -i 's/max_input_time = .*/max_input_time = 300/' "$php_ini"
     sed -i 's/;max_input_vars = .*/max_input_vars = 5000/' "$php_ini"
-    
+
     # Configurar PHP-FPM
     local fpm_pool="/etc/php/8.2/fpm/pool.d/www.conf"
     sed -i 's/pm = dynamic/pm = ondemand/' "$fpm_pool"
     sed -i 's/pm.max_children = .*/pm.max_children = 50/' "$fpm_pool"
     sed -i 's/;pm.process_idle_timeout = .*/pm.process_idle_timeout = 10s/' "$fpm_pool"
-    
+
     # Reiniciar PHP-FPM
     systemctl enable php8.2-fpm
     systemctl restart php8.2-fpm
-    
+
     if systemctl is-active --quiet php8.2-fpm; then
         success "PHP 8.2 instalado y corriendo"
         log "PHP 8.2 instalado exitosamente"
@@ -300,25 +300,25 @@ install_mysql() {
     header
     echo -e "${BOLD}Instalando MySQL 8.0...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de MySQL 8.0"
-    
+
     # Generar password seguro
     local mysql_root_pass=$(openssl rand -base64 32)
-    
+
     # Pre-configurar password
     export DEBIAN_FRONTEND=noninteractive
     debconf-set-selections <<< "mysql-server mysql-server/root_password password $mysql_root_pass"
     debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $mysql_root_pass"
-    
+
     # Instalar MySQL
     info "Instalando MySQL Server..."
     apt-get install -y mysql-server || { error "Fallo al instalar MySQL"; return 1; }
-    
+
     # Esperar a que MySQL inicie
     info "Esperando a que MySQL inicie..."
     sleep 5
-    
+
     # Guardar credenciales
     cat > /root/.my.cnf <<EOF
 [client]
@@ -326,7 +326,7 @@ user=root
 password=$mysql_root_pass
 EOF
     chmod 600 /root/.my.cnf
-    
+
     # Secure installation
     info "Asegurando instalación MySQL..."
     mysql -u root -p"$mysql_root_pass" <<'SQL'
@@ -336,7 +336,7 @@ DROP DATABASE IF EXISTS test;
 DELETE FROM mysql.db WHERE Db='test' OR Db='test\\_%';
 FLUSH PRIVILEGES;
 SQL
-    
+
     # Configuración de performance
     cat > /etc/mysql/mysql.conf.d/woo-enterprise.cnf <<'EOF'
 [mysqld]
@@ -347,9 +347,9 @@ innodb_log_file_size = 128M
 character-set-server = utf8mb4
 collation-server = utf8mb4_unicode_ci
 EOF
-    
+
     systemctl restart mysql
-    
+
     if systemctl is-active --quiet mysql; then
         success "MySQL instalado y corriendo"
         success "Credenciales guardadas en /root/.my.cnf"
@@ -365,21 +365,21 @@ install_redis() {
     header
     echo -e "${BOLD}Instalando Redis...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de Redis"
-    
+
     info "Instalando Redis Server..."
     apt-get install -y redis-server || { error "Fallo al instalar Redis"; return 1; }
-    
+
     # Configurar Redis
     info "Configurando Redis..."
     sed -i 's/supervised no/supervised systemd/' /etc/redis/redis.conf
     sed -i 's/# maxmemory <bytes>/maxmemory 256mb/' /etc/redis/redis.conf
     sed -i 's/# maxmemory-policy noeviction/maxmemory-policy allkeys-lru/' /etc/redis/redis.conf
-    
+
     systemctl enable redis-server
     systemctl restart redis-server
-    
+
     if systemctl is-active --quiet redis-server; then
         success "Redis instalado y corriendo"
         log "Redis instalado exitosamente"
@@ -394,32 +394,32 @@ install_wpcli() {
     header
     echo -e "${BOLD}Instalando WP-CLI...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de WP-CLI"
-    
+
     # Crear directorios
     info "Creando directorios..."
     mkdir -p /root/.wp-cli/cache
     mkdir -p /var/www/.wp-cli/cache
     chmod -R 755 /root/.wp-cli /var/www/.wp-cli
-    
+
     # Descargar WP-CLI
     info "Descargando WP-CLI..."
     curl -sS https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o /tmp/wp-cli.phar || {
         error "Fallo al descargar WP-CLI"
         return 1
     }
-    
+
     chmod +x /tmp/wp-cli.phar
     mv /tmp/wp-cli.phar /usr/local/bin/wp
-    
+
     # Crear config
     cat > /root/.wp-cli/config.yml <<'EOF'
 path: /var/www/woo-enterprise
 apache_modules:
   - mod_rewrite
 EOF
-    
+
     # Verificar
     if wp --version --allow-root &>/dev/null; then
         success "WP-CLI instalado correctamente"
@@ -435,25 +435,25 @@ install_composer() {
     header
     echo -e "${BOLD}Instalando Composer...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de Composer"
-    
+
     info "Descargando Composer..."
     php -r "copy('https://getcomposer.org/installer', '/tmp/composer-setup.php');" || {
         error "Fallo al descargar Composer"
         return 1
     }
-    
+
     info "Instalando Composer..."
     php /tmp/composer-setup.php --quiet --install-dir=/tmp || {
         error "Fallo al instalar Composer"
         return 1
     }
-    
+
     mv /tmp/composer.phar /usr/local/bin/composer
     chmod +x /usr/local/bin/composer
     rm -f /tmp/composer-setup.php
-    
+
     if composer --version &>/dev/null; then
         success "Composer instalado correctamente"
         log "Composer instalado exitosamente"
@@ -468,38 +468,38 @@ install_wordpress() {
     header
     echo -e "${BOLD}Instalando WordPress...${NC}"
     echo ""
-    
+
     log "Iniciando instalación de WordPress"
-    
+
     # Verificar dependencias
     if ! check_mysql | grep -q "installed"; then
         error "MySQL no está instalado. Instálalo primero."
         return 1
     fi
-    
+
     if ! check_wpcli | grep -q "installed"; then
         error "WP-CLI no está instalado. Instálalo primero."
         return 1
     fi
-    
+
     # Crear directorios
     info "Creando directorios..."
     mkdir -p /var/www/woo-enterprise
     cd /var/www/woo-enterprise
-    
+
     # Descargar WordPress
     info "Descargando WordPress en español..."
     sudo -u www-data wp core download --locale=es_ES --allow-root || {
         error "Fallo al descargar WordPress"
         return 1
     }
-    
+
     # Crear base de datos master
     info "Creando base de datos master_wp..."
-    
+
     # Generar credenciales DB
     local wp_db_pass=$(openssl rand -base64 32)
-    
+
     mysql -u root <<EOF
 CREATE DATABASE IF NOT EXISTS master_wp CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 CREATE USER IF NOT EXISTS 'wp_master'@'localhost' IDENTIFIED BY '$wp_db_pass';
@@ -507,14 +507,14 @@ GRANT ALL PRIVILEGES ON \`master_wp\`.* TO 'wp_master'@'localhost';
 GRANT ALL PRIVILEGES ON \`tenant_%\`.* TO 'wp_master'@'localhost';
 FLUSH PRIVILEGES;
 EOF
-    
+
     # Guardar credenciales
     cat > /root/.wp-db-credentials <<EOF
 WP_DB_USER=wp_master
 WP_DB_PASS=$wp_db_pass
 EOF
     chmod 600 /root/.wp-db-credentials
-    
+
     # Crear wp-config.php
     info "Creando wp-config.php..."
     sudo -u www-data wp config create \
@@ -545,7 +545,7 @@ define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', false);
 PHP
-    
+
     # Crear tablas master
     info "Creando tablas de tenants..."
     mysql master_wp <<'SQL'
@@ -562,15 +562,15 @@ CREATE TABLE IF NOT EXISTS `master_tenants` (
   INDEX `idx_slug` (`slug`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 SQL
-    
+
     # Permisos
     chown -R www-data:www-data /var/www/woo-enterprise
-    
+
     success "WordPress instalado correctamente"
     success "Base de datos: master_wp"
     success "Credenciales en: /root/.wp-db-credentials"
     log "WordPress instalado exitosamente"
-    
+
     return 0
 }
 
@@ -578,56 +578,56 @@ configure_nginx() {
     header
     echo -e "${BOLD}Configurando Nginx para WordPress...${NC}"
     echo ""
-    
+
     # Solicitar dominio
     echo "Ingresa tu dominio (ej: ejemplo.com):"
     read -r domain
-    
+
     if [ -z "$domain" ]; then
         error "Dominio no puede estar vacío"
         return 1
     fi
-    
+
     info "Configurando vhost para: $domain"
-    
+
     cat > /etc/nginx/sites-available/woo-enterprise <<EOF
 server {
     listen 80;
     server_name $domain *.$domain;
-    
+
     root /var/www/woo-enterprise;
     index index.php index.html;
-    
+
     access_log /var/log/nginx/woo-access.log;
     error_log /var/log/nginx/woo-error.log;
-    
+
     location / {
         try_files \$uri \$uri/ /index.php?\$args;
     }
-    
+
     location ~ \.php$ {
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/run/php/php8.2-fpm.sock;
     }
-    
+
     location ~ /\. {
         deny all;
     }
 }
 EOF
-    
+
     # Habilitar sitio
     ln -sf /etc/nginx/sites-available/woo-enterprise /etc/nginx/sites-enabled/
     rm -f /etc/nginx/sites-enabled/default
-    
+
     # Test
     if nginx -t 2>&1 | tee -a "$LOG_FILE"; then
         systemctl reload nginx
         success "Nginx configurado para: $domain"
-        
+
         # Guardar dominio
         echo "DOMAIN=$domain" >> "$CONFIG_FILE"
-        
+
         return 0
     else
         error "Error en configuración Nginx"
@@ -643,7 +643,7 @@ show_status() {
     header
     echo -e "${BOLD}Estado de Componentes:${NC}"
     echo ""
-    
+
     local nginx_status=$(check_nginx)
     local php_status=$(check_php)
     local mysql_status=$(check_mysql)
@@ -651,7 +651,7 @@ show_status() {
     local wpcli_status=$(check_wpcli)
     local composer_status=$(check_composer)
     local wordpress_status=$(check_wordpress)
-    
+
     printf "%-20s %s\n" "Nginx:" "$(format_status "$nginx_status")"
     printf "%-20s %s\n" "PHP 8.2:" "$(format_status "$php_status")"
     printf "%-20s %s\n" "MySQL:" "$(format_status "$mysql_status")"
@@ -659,7 +659,7 @@ show_status() {
     printf "%-20s %s\n" "WP-CLI:" "$(format_status "$wpcli_status")"
     printf "%-20s %s\n" "Composer:" "$(format_status "$composer_status")"
     printf "%-20s %s\n" "WordPress:" "$(format_status "$wordpress_status")"
-    
+
     echo ""
 }
 
@@ -678,7 +678,7 @@ format_status() {
 
 install_component() {
     local component=$1
-    
+
     case $component in
         nginx)
             install_nginx
@@ -709,7 +709,7 @@ install_component() {
             return 1
             ;;
     esac
-    
+
     local result=$?
     echo ""
     if [ $result -eq 0 ]; then
@@ -726,7 +726,7 @@ main_menu() {
     while true; do
         header
         show_status
-        
+
         echo -e "${BOLD}Opciones:${NC}"
         echo ""
         echo "  ${CYAN}INSTALACIÓN COMPONENTES:${NC}"
@@ -747,9 +747,9 @@ main_menu() {
         echo "    0) Salir"
         echo ""
         echo -n "Selecciona una opción: "
-        
+
         read -r option
-        
+
         case $option in
             1) install_component nginx ;;
             2) install_component php ;;
@@ -760,7 +760,7 @@ main_menu() {
             7) install_component wordpress ;;
             8) install_component nginx_config ;;
             9) install_all ;;
-            0) 
+            0)
                 clear
                 echo "¡Hasta luego!"
                 exit 0
@@ -781,15 +781,15 @@ install_all() {
     echo ""
     read -p "¿Continuar? (s/n): " -n 1 -r
     echo ""
-    
+
     if [[ ! $REPLY =~ ^[SsYy]$ ]]; then
         return 0
     fi
-    
+
     local components=(nginx php mysql redis wpcli composer wordpress nginx_config)
     local total=${#components[@]}
     local current=0
-    
+
     for component in "${components[@]}"; do
         current=$((current + 1))
         echo ""
@@ -797,9 +797,9 @@ install_all() {
         echo "Paso $current de $total: Instalando $component..."
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         echo ""
-        
+
         install_component $component
-        
+
         if [ $? -ne 0 ]; then
             error "Falló la instalación de $component"
             read -p "¿Continuar con los demás? (s/n): " -n 1 -r
@@ -809,7 +809,7 @@ install_all() {
             fi
         fi
     done
-    
+
     echo ""
     success "Instalación completa finalizada"
     echo ""
